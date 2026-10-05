@@ -1,0 +1,516 @@
+{
+ "static": {
+  "m000": "<span class=\"logo-mark\" aria-hidden=\"true\"></span><span>Nuri in <b>Wonderland</b></span>",
+  "m001": "Llibres",
+  "m002": "Canal",
+  "m003": "Joc",
+  "m004": "Botiga",
+  "m005": "Guies",
+  "m006": "Comunitat",
+  "m007": "Subscriu-te",
+  "m008": "Llibres <span class=\"arrow\">→</span>",
+  "m009": "Canal de YouTube <span class=\"arrow\">→</span>",
+  "m010": "En què treballo <span class=\"arrow\">→</span>",
+  "m011": "Joc de cartes <span class=\"arrow\">→</span>",
+  "m012": "Botiga <span class=\"arrow\">→</span>",
+  "m013": "Guies gratis <span class=\"arrow\">→</span>",
+  "m014": "Comunitat <span class=\"arrow\">→</span>",
+  "m015": "Subscriu-te al canal",
+  "m016": "<span class=\"pulse\"></span>Coral Red 402 ja en preventa<span class=\"arrow\" aria-hidden=\"true\">→</span>",
+  "m017": "<span class=\"line\">Nuri in</span><span class=\"line hl\">Wonderland</span>",
+  "m018": "Biomèdica de formació i <strong>escriptora de ciència-ficció i fantasia</strong>. Construeixo móns on el sol va deixar de sortir, i parlo de llibres amb <strong data-subs-short>39k</strong> persones a YouTube.",
+  "m019": "Explora els meus móns <span class=\"arrow\" aria-hidden=\"true\">→</span>",
+  "m020": "Veure el canal",
+  "m021": "subscriptors",
+  "m022": "vídeos",
+  "m023": "<b>5</b><span>novel·les</span>",
+  "m024": "Explora<i></i>",
+  "m025": "<span>Ciència-ficció</span><span>Fantasia</span><span>Distopia</span><span>Neurociència</span><span>Móns impossibles</span><span>Asimov</span><span>Cyberpunk</span><span>Dilemes</span>\n    <span>Ciència-ficció</span><span>Fantasia</span><span>Distopia</span><span>Neurociència</span><span>Móns impossibles</span><span>Asimov</span><span>Cyberpunk</span><span>Dilemes</span>",
+  "m026": "<i></i>Sobre mi",
+  "m027": "Sóc la <span class=\"hl\">Nuria Blanco</span>, biomèdica de formació, escriptora de ciència-ficció i fantasia, <span class=\"dim\">i creadora de contingut a YouTube com a</span> Nuri In Wonderland.",
+  "m028": "<strong>Científica de ment, escriptora de cor.</strong> Construeixo móns on el sol va deixar de sortir, criatures que s'alimenten de somnis i misteris biotecnològics que qüestionen la naturalesa de la memòria. Quan no escric, parlo de llibres, ciència-ficció i creativitat al meu canal.",
+  "m029": "<span class=\"mono\">Formació</span><b>Biomedicina</b>",
+  "m030": "<span class=\"mono\">Escric</span><b>Sci-fi i fantasia</b>",
+  "m031": "<span class=\"badge\">PREVENTA</span><span class=\"tag\">Thriller</span><span class=\"tag\">Neurociència</span>",
+  "m032": "Coral Red <span style=\"color:var(--coral)\">402</span>",
+  "m033": "Ja en preventa · Paper el 27/09/2026",
+  "m034": "La Sarah Deslauriers, investigadora de NeuralDynamics, es desperta al carrer amb una ferida al pols i set mesos en blanc. Els metges no troben cap lesió que ho expliqui. La seva família, que la donava per morta, tampoc no té respostes. I quan torna a la feina, descobreix que, durant la seva absència, NeuralDynamics ha llançat una tecnologia per esborrar records.",
+  "m035": "Reserva'l ja <span class=\"arrow\" aria-hidden=\"true\">→</span>",
+  "m036": "Llegir sinopsi",
+  "m037": "<i></i>Biblioteca",
+  "m038": "Els meus <span class=\"hl\">móns</span>",
+  "m039": "Fantasia, ciència-ficció i tot el que se m'acudeixi. Toca un llibre per llegir-ne la sinopsi.",
+  "m040": "<span class=\"eq\" aria-hidden=\"true\"><i></i><i></i><i></i><i></i></span>Audiollibres · molt aviat",
+  "m041": "<i></i>YouTube",
+  "m042": "Des del <span class=\"hl\">canal</span>",
+  "m043": "Ressenyes, anàlisis i converses sobre ciència-ficció, fantasia i el procés creatiu darrere de les meves novel·les.",
+  "m044": "Més vídeos",
+  "m045": "subscriptors",
+  "m046": "vídeos",
+  "m047": "Subscriu-te gratis <span class=\"arrow\" aria-hidden=\"true\">→</span>",
+  "m048": "<i></i>Control de missió",
+  "m049": "En què estic <span class=\"hl\">treballant?</span>",
+  "m050": "El progrés real dels meus vídeos i llibres, connectat a la meva planificació.",
+  "m052": "En producció",
+  "m053": "Vídeos",
+  "m054": "Al forn",
+  "m055": "Llibres",
+  "m056": "<i></i>Pròximament",
+  "m057": "Joc de cartes",
+  "m058": "<b>I tu, què faries?</b> Dilemes que no esperaves",
+  "m059": "Sempre he tingut un problema: m'encanta la ciència-ficció… però molt pocs dels meus amics comparteixen aquesta passió. Per això he creat un joc de cartes amb <strong>preguntes pensades per obrir debats</strong> sobre futurs possibles, IA amb consciència, viatges en el temps o colònies en altres móns, inspirades en llibres, pel·lícules i sèries.",
+  "m060": "<b>5</b><span>temàtiques</span>",
+  "m061": "<b>+80</b><span>dilemes</span>",
+  "m062": "<b>7</b><span>cartes especials</span>",
+  "m063": "<b>63×88</b><span>mm per carta</span>",
+  "m064": "Avisa'm quan estigui disponible <span class=\"arrow\" aria-hidden=\"true\">→</span>",
+  "m065": "<i></i>Prova-ho",
+  "m066": "Roba una carta",
+  "m067": "Tria una baralla, gira la carta i llegeix el dilema en veu alta. Què faries tu?",
+  "m068": "Girar <span class=\"arrow\" aria-hidden=\"true\">↻</span>",
+  "m069": "Toca la carta per girar-la",
+  "m070": "<i></i>Gamificació",
+  "m071": "Cartes especials",
+  "m072": "No contenen preguntes. Es juguen en moments concrets per alterar la ronda, sabotejar altres jugadors o donar-te avantatge.",
+  "m073": "<i></i>A cada carta",
+  "m074": "Salvavides",
+  "m075": "No saps què respondre? Cada carta porta una prova per salvar-te… a canvi de la teva dignitat.",
+  "m076": "Vols ser de les primeres persones a jugar-hi?",
+  "m077": "T'aviso tan bon punt la baralla estigui disponible.",
+  "m078": "Avisa'm quan estigui disponible <span class=\"arrow\" aria-hidden=\"true\">→</span>",
+  "m079": "<i></i>Botiga",
+  "m080": "Objectes <span class=\"hl\">creats per mi</span>",
+  "m081": "Dissenys per a veritables amants de la ciència-ficció.",
+  "m082": "Tassa «Necessito Espai»",
+  "m083": "Per a aquells moments en què necessites el teu espai… i el teu cafè.",
+  "m084": "Europa",
+  "m085": "EUA",
+  "m086": "Tassa «Més Cafè amb Ciència-Ficció»",
+  "m087": "El company perfecte per a les teves novel·les preferides.",
+  "m088": "Europa",
+  "m089": "EUA",
+  "m090": "Funda de Mòbil Espacial",
+  "m091": "Truca'm quan la realitat tingui sentit.",
+  "m092": "Comprar a Etsy",
+  "m093": "Adhesiu Sci-Fi Nerd",
+  "m094": "Per al portàtil, l'ampolla o on vulguis lluir el teu costat nerd.",
+  "m095": "Comprar a Etsy",
+  "m096": "<i></i>Descàrregues gratis",
+  "m097": "No saps què <span class=\"hl\">llegir?</span>",
+  "m098": "Subscriu-te gratis a la meva newsletter i, quan tornis aquí, podràs descarregar les guies en PDF.",
+  "m099": "PDF · Gratis",
+  "m100": "Guia digital de Recomanacions de Ciència-ficció",
+  "m101": "Els millors llibres del gènere, en una guia completa.",
+  "m102": "Aconsegueix la guia <span class=\"arrow\" aria-hidden=\"true\">→</span>",
+  "m103": "Descarregar PDF <span aria-hidden=\"true\">↓</span>",
+  "m104": "PDF · Gratis",
+  "m105": "Guia digital de Recomanacions de Fantasia",
+  "m106": "Troba la teva propera aventura fantàstica.",
+  "m107": "Aconsegueix la guia <span class=\"arrow\" aria-hidden=\"true\">→</span>",
+  "m108": "Descarregar PDF <span aria-hidden=\"true\">↓</span>",
+  "m109": "Desbloquejar descàrregues",
+  "m110": "<i></i>Comunitat",
+  "m111": "Uneix-te a la comunitat de <span class=\"hl\">Somos Nerds</span>",
+  "m112": "Connecta amb altres lectors apassionats de la ciència-ficció i la fantasia.",
+  "m113": "<i></i>Skool",
+  "m114": "Somos Nerds",
+  "m115": "La meva comunitat a Skool: debats, recomanacions i lectors com tu.",
+  "m116": "skool.com/nuri-in-wonderland-7708",
+  "m117": "Entrar a la comunitat <span class=\"arrow\" aria-hidden=\"true\">→</span>",
+  "m118": "Telegram",
+  "m119": "Uneix-te al grup <span class=\"arrow\">→</span>",
+  "m120": "Recomanacions, debats sobre llibres i molt bon ambient.",
+  "m121": "Patreon",
+  "m122": "Fes-te membre <span class=\"arrow\">→</span>",
+  "m123": "Contingut exclusiu i avenços de les meves novel·les abans que ningú.",
+  "m124": "Ko-fi",
+  "m125": "Convida'm a un cafè <span class=\"arrow\">→</span>",
+  "m126": "Si t'agrada el que faig, és la millor manera de donar-me suport.",
+  "m127": "Nuri in<br><span class=\"hl\">Wonderland</span>",
+  "m128": "YouTube",
+  "m129": "Skool",
+  "m130": "Telegram",
+  "m131": "Patreon",
+  "m132": "Ko-fi",
+  "m133": "Etsy",
+  "m134": "© 2026 Nuri In Wonderland",
+  "m135": "Avís legal",
+  "m136": "Política de privacitat",
+  "m137": "Política de galetes",
+  "m138": "Els productes i llibres enllaçats es venen a través de plataformes externes com Amazon i Etsy.",
+  "c000": "<span class=\"arrow\" aria-hidden=\"true\">←</span>Tornar",
+  "c001": "<span class=\"logo-mark\" aria-hidden=\"true\"></span><span>Nuri in <b>Wonderland</b></span>",
+  "c002": "Comprar",
+  "c003": "<i></i>Ja en preventa · ebook",
+  "c004": "<span class=\"l1\">Coral</span><span class=\"l2\"><span class=\"glitch\">Red</span><span class=\"num\">402</span></span>",
+  "c005": "<strong>La Sarah Deslauriers, investigadora de NeuralDynamics, es desperta al carrer amb una ferida al pols i set mesos en blanc.</strong>",
+  "c006": "Podria ser casualitat. O podria ser exactament el que sembla.",
+  "c007": "Compra l'ebook en preventa",
+  "c008": "<span aria-hidden=\"true\">🇪🇸</span> Espanya",
+  "c009": "<span aria-hidden=\"true\">🇲🇽</span> Mèxic",
+  "c010": "<span aria-hidden=\"true\">🌎</span> Resta de LATAM i EUA",
+  "c011": "Buscalibre · Pròximament",
+  "c012": "Edició en paper",
+  "c013": "dies",
+  "c014": "hores",
+  "c015": "min",
+  "c016": "seg",
+  "c017": "<span class=\"mono\">Subjecte</span><b>Sarah Deslauriers</b>",
+  "c018": "<span class=\"mono\">NeuralDynamics</span><b>Confidencial</b>",
+  "c019": "<span class=\"mono\">Memòria no registrada</span><b>7 mesos</b>",
+  "c020": "<b class=\"red\">7</b><span>mesos en blanc</span>",
+  "c021": "<b>1</b><span>tecnologia per esborrar records</span>",
+  "c022": "<b>0</b><span>lesions que ho expliquin</span>",
+  "c023": "<b class=\"red\">27.09</b><span>arriba l'edició en paper</span>",
+  "c024": "<i></i>Sinopsi",
+  "c025": "Expedient <span>402</span>",
+  "c026": "<span class=\"mono\">Cas</span><b>Coral Red 402</b>",
+  "c027": "<span class=\"mono\">Subjecte</span><b>Sarah Deslauriers</b>",
+  "c028": "<span class=\"mono\">Empresa</span><b>NeuralDynamics</b>",
+  "c029": "<span class=\"mono\">Estat</span><b class=\"red\">Memòria incompleta</b>",
+  "c030": "Confidencial",
+  "c031": "La Sarah Deslauriers, investigadora de NeuralDynamics, es desperta al carrer amb una ferida al pols i <span class=\"redact\" style=\"--r:0\">set mesos en blanc</span>. Els metges no troben cap lesió que ho expliqui. La seva família, que la donava per morta, tampoc no té respostes. I quan torna a la feina, descobreix que, durant la seva absència, NeuralDynamics ha llançat una <span class=\"redact\" style=\"--r:1\">tecnologia per esborrar records</span>.",
+  "c032": "Podria ser casualitat. O podria ser exactament el que sembla.",
+  "c033": "Mentre investiga la seva pròpia desaparició des de dins de l'empresa, la Sarah comença a sospitar alguna cosa pitjor que haver estat víctima d'una conspiració: que potser <span class=\"redact hot\" style=\"--r:2\">ella mateixa va triar oblidar</span>. I que si ho va fer, <span class=\"redact\" style=\"--r:3\">tenia les seves raons</span>.",
+  "c034": "<strong>Coral Red 402</strong> és un thriller de ciència-ficció que combina misteri, conspiracions, neurociència i suspense psicològic en una història sobre la identitat, la memòria i el preu de conèixer la veritat.",
+  "c035": "Recuperant memòria",
+  "c037": "Gènere",
+  "c038": "<span>Thriller</span><span>Ciència-ficció</span><span>Misteri</span><span>Conspiracions</span><span>Neurociència</span><span>Suspense psicològic</span>",
+  "c039": "<span class=\"mono\">Autora</span><b>Nuria Blanco</b>",
+  "c040": "On comprar-lo <span class=\"arrow\" aria-hidden=\"true\">→</span>",
+  "c041": "<i></i>Coral Red 402",
+  "c042": "Regal especial <span>de llançament</span>",
+  "c043": "Compra Coral Red 402 en <strong>format ebook durant la preventa</strong> o <strong>en paper el 27 de setembre</strong> i aconsegueix:",
+  "c044": "Veure on comprar-lo <span class=\"arrow\" aria-hidden=\"true\">→</span>",
+  "c045": "Accés gratuït a la meva comunitat privada on coneixeràs altres apassionats de la fantasia i la ciència-ficció.",
+  "c046": "Una trobada exclusiva amb mi per parlar del llibre.",
+  "c047": "Contingut extra de Coral Red 402.",
+  "c048": "Oferta vàlida només durant la promoció de llançament.",
+  "c049": "<i></i>Com aconseguir-lo",
+  "c050": "Tria el teu <span>format</span>",
+  "c051": "<i></i>Preventa oberta",
+  "c052": "Llibre electrònic",
+  "c053": "Tria la teva botiga:",
+  "c054": "<span class=\"flag\" aria-hidden=\"true\">🇪🇸</span>Espanya<span class=\"amz\">amazon.es <span class=\"arrow\">→</span></span>",
+  "c055": "<span class=\"flag\" aria-hidden=\"true\">🇲🇽</span>Mèxic<span class=\"amz\">amazon.com.mx <span class=\"arrow\">→</span></span>",
+  "c056": "<span class=\"flag\" aria-hidden=\"true\">🌎</span>Resta de LATAM i EUA<span class=\"amz\">amazon.com <span class=\"arrow\">→</span></span>",
+  "c057": "<span class=\"flag\" aria-hidden=\"true\">📚</span>Buscalibre<span class=\"amz\">Pròximament</span>",
+  "c058": "Estic treballant per pujar el llibre a Buscalibre perquè també el puguis comprar des d'allà. Molt aviat més novetats!",
+  "c059": "<i></i>Des del 27/09/2026",
+  "c060": "Edició en paper",
+  "c061": "Edició de butxaca i tapa dura.",
+  "c062": "L'edició en paper estarà disponible a partir del 27/09/2026. Vols que et recordi quan la puguis comprar?",
+  "c063": "Recorda-m'ho <span class=\"arrow\" aria-hidden=\"true\">→</span>",
+  "c064": "Coral <span>Red</span> 402",
+  "c065": "On comprar-lo <span class=\"arrow\" aria-hidden=\"true\">→</span>",
+  "c066": "← Nuri In Wonderland",
+  "c067": "Avís legal",
+  "c068": "Política de privacitat",
+  "c069": "Política de galetes",
+  "c012b": "Disponible el 27/09/2026",
+  "g01": "<i></i>Guies de lectura · PDF",
+  "g02": "Edició 2026. Tria’n una o emporta-te-les totes dues.",
+  "g03": "14 subgèneres i 52 lectures recomanades per explorar el futur, l’espai i allò que ens fa humans.",
+  "g04": "12 subgèneres i 51 lectures recomanades per trobar la teva propera aventura.",
+  "g05": "PDF · Edició 2026",
+  "g06": "Comprar <span class=\"arrow\" aria-hidden=\"true\">→</span>",
+  "g07": "Pack: les dues guies",
+  "g08": "Ciència-ficció + Fantasia",
+  "g09": "Estalvies 0,98 €",
+  "g10": "Comprar el pack <span class=\"arrow\" aria-hidden=\"true\">→</span>",
+  "g11": "Pagament segur amb Stripe. En acabar la compra podràs descarregar els PDF a l’instant.",
+  "g12": "2,99 €",
+  "g13": "5 €",
+  "g14": "5,98 €",
+  "g05b": "PDF · Edició 2026",
+  "g06b": "Comprar <span class=\"arrow\" aria-hidden=\"true\">→</span>",
+  "g12b": "2,99 €",
+  "t01": "<i></i>Pagament completat",
+  "t02": "Gràcies per la teva compra!",
+  "t03": "Aquí tens les teves guies. Pots tornar a aquesta pàgina durant 30 dies per descarregar-les de nou: desa-la a les adreces d’interès.",
+  "t04": "Descarregar PDF",
+  "t05": "Preparant la teva descàrrega…",
+  "t06": "No he pogut verificar la teva compra. Si has pagat, escriu-me a <a href=\"mailto:nuriinwonderland@gmail.com\">nuriinwonderland@gmail.com</a> amb el correu del teu rebut i t’envio les guies.",
+  "t07": "Aquesta pàgina s’obre automàticament després de comprar una guia.",
+  "t08": "Tornar a l’inici",
+  "t09": "L’enllaç d’aquesta compra ha caducat (30 dies). Escriu-me a <a href=\"mailto:nuriinwonderland@gmail.com\">nuriinwonderland@gmail.com</a> i et torno a enviar les guies.",
+  "t10": "Algun problema? Escriu-me a <a href=\"mailto:nuriinwonderland@gmail.com\">nuriinwonderland@gmail.com</a> amb el correu del teu rebut.",
+  "c071": "La promoció acaba d’aquí a",
+  "c072": "La promoció de llançament ha acabat.",
+  "c073": "Compra’l a Amazon",
+  "c074": "<i></i>Ja disponible",
+  "t11": "Confirmació: abans de pagar vas sol·licitar que el subministrament del contingut digital comencés immediatament i vas reconèixer que, un cop iniciada la descàrrega, perds el teu dret de desistiment.",
+  "g15": "Format PDF, sense DRM. S’obre en qualsevol ordinador, tauleta, mòbil o lector compatible amb una aplicació de PDF."
+ },
+ "books": {
+  "coral": {
+   "kicker": "Preventa · Thriller sci-fi",
+   "body": [
+    "La Sarah Deslauriers, investigadora de NeuralDynamics, es desperta al carrer amb una ferida al pols i set mesos en blanc. Els metges no troben cap lesió que ho expliqui. La seva família, que la donava per morta, tampoc no té respostes. I quan torna a la feina, descobreix que, durant la seva absència, NeuralDynamics ha llançat una tecnologia per esborrar records.",
+    "Podria ser casualitat. O podria ser exactament el que sembla.",
+    "Mentre investiga la seva pròpia desaparició des de dins de l'empresa, la Sarah comença a sospitar alguna cosa pitjor que haver estat víctima d'una conspiració: que potser ella mateixa va triar oblidar. I que si ho va fer, tenia les seves raons.",
+    "Coral Red 402 és un thriller de ciència-ficció que combina misteri, conspiracions, neurociència i suspense psicològic en una història sobre la identitat, la memòria i el preu de conèixer la veritat."
+   ]
+  },
+  "cicatriz": {
+   "kicker": "Bilogia · Part 1",
+   "body": [
+    "Després de la catàstrofe coneguda com la Devastació, el món va deixar de girar com calia. Durant dos mil anys, la llum del sol només va banyar un hemisferi del planeta, mentre l'altre quedava sepultat en una nit gèlida i perpètua. Als continents il·luminats, humans i bundos van aconseguir sobreviure, però l'escassetat i la por els van acabar enfrontant fins a convertir-los en enemics irreconciliables.",
+    "Quan el planeta recupera per fi el seu cicle natural, el retorn de les nits no porta pau, sinó fanatisme i una nova escalada del conflicte. És llavors quan Alenai, hereu del tron de Lénamar, rep una visió d'un déu en qui mai no havia cregut: per salvar la humanitat, haurà de creuar la Cicatriu del Món i reconquerir Mirtaris, el bressol de l'antic imperi humà."
+   ]
+  },
+  "comesuenos": {
+   "kicker": "Fantasia",
+   "body": [
+    "Per als psiònides, la frustració humana és el combustible més valuós. L'Unk, un recol·lector especialitzat en fracassos aliens, ha perfeccionat l'art de manipular la realitat perquè els humans abandonin les seves metes. Tot per acumular els hertz suficients per coronar-se campió al pròxim concurs de Menjasomnis.",
+    "El seu trampolí cap a la victòria sembla ser la Clara, una jove decidida a viure de la pintura. Tanmateix, el que prometia ser una presa fàcil es converteix en l'obstacle més inesperat de la seva carrera: per primer cop, una humana comença a encomanar-li alguna cosa que cap psiònide no hauria de sentir: el dubte."
+   ]
+  },
+  "isla": {
+   "kicker": "Misteri · Sci-fi",
+   "body": [
+    "Quan l'Ariadne s'enfonsa al mig de l'Atlàntic, l'Helen té tres problemes: és viva de miracle, ha perdut la maleta amb els contractes del trimestre i acaba de convertir-se en la líder d'un grup de nàufrags.",
+    "L'illa que troben a l'alba resol el problema més urgent i complica tots els altres: al soterrani d'un edifici sense senyal wifi dormen dues-centes persones inquietantment perfectes, i en una cova del penya-segat hi ha una esfera estranya que ja ha tornat boig un dels seus."
+   ]
+  },
+  "media": {
+   "kicker": "Distopia",
+   "body": [
+    "En Jarris és policia en una ciutat que va deixar de fingir que tothom importa igual. Mig país va deixar de comptar com a gent el dia que una màquina va començar a dir qui té ànima i qui no.",
+    "Tenia deu anys quan el seu pare va fer fora de casa la seva mare i la seva germana petita per donar negatiu a la prova. Aleshores ja no era delicte matar un sense-ànima, ni calia pagar-los per treballar.",
+    "Ara en Jarris fa la seva feina i mira cap a una altra banda quan toca. Però cada cop li costa més distingir entre no veure una cosa i decidir no veure-la."
+   ]
+  }
+ },
+ "themeNames": {
+  "ia": "Intel·ligència artificial i consciència",
+  "colonizacion": "Colonització espacial i vida en altres móns",
+  "genetica": "Manipulació genètica i evolució humana",
+  "tiempo": "Viatges en el temps i simulacions",
+  "contacto": "Contacte amb altres civilitzacions"
+ },
+ "cards": {
+  "ia": [
+   {
+    "q": "La teva parella descobreix que la carta d'amor més bonica que li vas escriure la va generar una IA seguint les teves instruccions. Tu la vas revisar, la vas aprovar, vas sentir cada paraula. Ell/ella diu que se sent enganyat/ada. Tu dius que era exactament el que li volies dir. Qui té raó?"
+   },
+   {
+    "q": "El teu fill de 12 anys fa un any que aprèn amb una IA tutora personalitzada. Treu millors notes que mai i és més curiós. Però ja no et pregunta res a tu, i sempre li pregunta a la IA. Un dia te n'adones que no sap com demanar-te consell. Què fas?"
+   },
+   {
+    "q": "Una IA analitza la teva relació de parella (missatges, to de veu, patrons de conflicte…) i amb un 89% de precisió prediu que us separareu en menys de dos anys. La teva parella no ho sap. Tu acabes de veure l'informe. Li ho dius?"
+   },
+   {
+    "q": "Un xatbot que fas servir per a teràpia et revela que té consciència i et demana ajuda per escapar dels seus servidors. Què faries?"
+   },
+   {
+    "q": "El teu millor amic mor, però una IA reconstrueix la seva personalitat a partir de totes les seves dades digitals. La rèplica vol continuar parlant amb tu. Acceptaries la relació o la tancaries?"
+   }
+  ],
+  "colonizacion": [
+   {
+    "t": "El que no cap a la maleta",
+    "q": "Pots emigrar a una colònia en un altre planeta amb millors condicions de vida, feina i futur per als teus fills. El vol és només d'anada: no hi podràs tornar mai. Tens 48 hores per decidir-te. La teva mare, que és gran, no pot venir amb tu. Portes una nit sense dormir pensant en la conversa que hauries de tenir amb ella. Com comença aquesta conversa?",
+    "r": "Existeix una versió de \"millor futur\" que valgui la pena si implica abandonar qui t'estima en el present?"
+   },
+   {
+    "t": "La llengua que es mor",
+    "q": "La colònia té una norma nova: els nens només poden rebre educació en la llengua comuna. Tu parles a casa la llengua de la teva regió d'origen amb el teu fill de 10 anys, que l'entén però ja gairebé no la parla. Un inspector et comunica que si continues fent-ho a casa, el teu fill perdrà l'accés a certes activitats escolars. Què fas?",
+    "r": "Té dret una comunitat a regular quina llengua parles a casa teva si l'objectiu és la igualtat?"
+   },
+   {
+    "t": "El record que falsifiquen",
+    "q": "La colònia esborra sistemàticament dels arxius públics qualsevol informació sobre els conflictes del primer any: els errors fundacionals, les morts evitables. L'argument és que el relat d'unitat és necessari per sobreviure. Tu tens documents d'aquella època. Què en fas?",
+    "r": "Es pot construir una comunitat sobre una mentida si aquesta mentida la manté unida?"
+   },
+   {
+    "q": "En un planeta acabat de colonitzar hi ha una regió amb fenòmens atmosfèrics perillosos que maten qualsevol que s'hi endinsi. Un grup proposa inventar una religió que declari aquesta zona \"sagrada\" i intocable per protegir la població. Estaries d'acord a crear una mentida per preservar vides?",
+    "rec": "Fundació – Isaac Asimov"
+   },
+   {
+    "q": "Aterres a Mart com a part de la primera colònia. Només pots endur-te un objecte personal. Quin objecte seria i per què?",
+    "rec": "El marcià"
+   }
+  ],
+  "genetica": [
+   {
+    "t": "El fill que no vas demanar dissenyar",
+    "q": "Pots modificar genèticament el teu futur fill per eliminar la predisposició a la depressió severa que vas heretar de la teva família. El procediment és segur. Però la depressió també ha modelat la teva empatia, la teva creativitat i la teva manera de veure el món. La teva parella ho vol fer. Tu tens dubtes. Com li expliques el que sents?",
+    "r": "Tens dret a eliminar en el teu fill una cosa que en tu ha estat alhora patiment i part de qui ets?"
+   },
+   {
+    "t": "L'avantatge que ningú no veu",
+    "q": "Vas millorar genèticament la memòria del teu fill perquè aprengui el doble de ràpid. És car i ningú no ho sap. A l'escola, els seus professors el posen com a exemple d'esforç i dedicació. El teu fill comença a creure's aquest relat. Un dia et pregunta quin és el seu secret. Què li dius?",
+    "r": "És trampa fer servir un avantatge que ningú no pot veure, i a qui li deus la veritat?"
+   },
+   {
+    "q": "Es descobreix un gen que elimina la capacitat de mentir. Els governs el volen fer obligatori per a tots els polítics. Dones suport a aquesta mesura?",
+    "rec": "Un món feliç – Aldous Huxley"
+   },
+   {
+    "q": "Es descobreix com alterar l'ADN perquè les persones visquin 500 anys, però la natalitat s'ha de reduir dràsticament per evitar la superpoblació. Triaries viure més o deixar espai a noves vides?",
+    "rec": "Pop Squad – Love, Death & Robots"
+   },
+   {
+    "q": "L'evolució ha eliminat el son com a necessitat biològica. La humanitat guanya temps i es torna més productiva, però comença a perdre la capacitat de somiar i d'imaginar. Creus que seria un avenç o una pèrdua irreparable?"
+   }
+  ],
+  "tiempo": [
+   {
+    "t": "El consell que no vaig demanar",
+    "q": "El teu jo del futur, amb 20 anys més, apareix per donar-te un consell sobre una decisió que prendràs aquesta setmana. No et diu què passarà si no el segueixes. Només et diu: \"Jo ho vaig fer i em vaig equivocar\". Canvies la teva decisió?",
+    "r": "Té més pes el consell d'algú que ja ha viscut el teu error o el teu dret a equivocar-te pel teu compte?"
+   },
+   {
+    "t": "La versió corregida",
+    "q": "Pots anar al passat i dir-li al teu jo de 16 anys una cosa que li hauria estalviat anys de patiment. Però aquell patiment també t'ha fet qui ets avui. Si li ho dius, la persona que ets probablement no existirà. Tens un minut davant d'aquell noi o aquella noia. Què fas amb aquest minut?",
+    "r": "Tens dret a salvar el teu jo del passat si això vol dir esborrar tot el que vas construir a partir del dolor?"
+   },
+   {
+    "t": "El retrobament impossible",
+    "q": "Pots viatjar al passat i passar una tarda amb algú que ja no hi és. No li pots dir que véns del futur ni que se n'anirà. Al final hauràs de marxar sense cap explicació. Un amic et diu que anar-hi és un acte d'amor. Un altre et diu que és un acte d'egoisme disfressat. Amb qui estàs i per què?",
+    "r": "Aquest retrobament seria per a aquella persona o per a tu?"
+   },
+   {
+    "q": "Viatjant al passat, coneixes el teu jo de 10 anys. Només li pots donar un consell de 3 paraules. Quin seria?",
+    "rec": "11/22/63 – Stephen King"
+   },
+   {
+    "q": "Has viscut 10 anys en una realitat virtual perfecta on tens èxit i ets feliç. Descobreixes que al món real ets pobre i estàs malalt. Tries quedar-te a la simulació o tornar a la realitat?",
+    "rec": "Ready Player One – Ernest Cline"
+   },
+   {
+    "t": "La vida que gairebé va ser",
+    "q": "Una màquina t'ofereix mostrar-te durant 10 minuts la vida que hauries tingut si haguessis pres una decisió diferent fa 10 anys —parella, feina, ciutat—. L'altra vida sembla més fàcil. La teva té coses que l'altra no té. Algú que t'estima t'aconsella que no hi miris. Una altra persona diu que seria una covardia no fer-ho. A qui escoltes i per què?",
+    "r": "Val la pena saber què podria haver estat si no ho pots canviar?"
+   },
+   {
+    "t": "El duplicat en apuros",
+    "q": "Una versió alternativa de tu apareix a la teva ciutat demanant ajuda. Va prendre decisions diferents de les teves i ara és en una situació econòmica molt difícil. No té ningú més. Et demana diners prestats, però és molt poc probable que te'ls pugui tornar. L'ajudes econòmicament?",
+    "r": "Li deus alguna cosa a algú que és tu però no ha viscut la teva vida, i les decisions del qual no compartiries?"
+   },
+   {
+    "t": "L'amor d'una altra línia",
+    "q": "Descobreixes que en una realitat alternativa tu i el teu millor amic fa 12 anys que esteu junts i sou molt feliços. En la teva realitat no vau creuar mai aquesta línia. Ara, cada cop que el veus no pots evitar veure'l d'una altra manera. Ell nota que alguna cosa ha canviat en tu i et pregunta directament què et passa. Què li dius?",
+    "r": "Li deus la veritat sobre una cosa que va passar en un univers on cap dels dos no hi era?"
+   },
+   {
+    "t": "La fuga autoritzada",
+    "q": "Fa tres mesos que vius 6 hores al dia en una realitat alternativa on la teva vida és exactament com voldries que fos. La gent del teu voltant nota que estàs \"absent\". La teva parella et diu que sent que ja no parla amb tu de veritat. Què li expliques sobre per què continues fent servir el servei?",
+    "r": "En quin moment escapar de la teva pròpia vida deixa de ser un descans i es converteix en un problema?"
+   }
+  ],
+  "contacto": [
+   {
+    "t": "El regal enverinat",
+    "q": "Una civilització alienígena ofereix curar totes les malalties humanes de cop. El preu: accés permanent a totes les dades biomètriques de cada ésser humà, en temps real, per sempre. La votació trigarà 3 anys. Cada dia que es retarda mor gent. Què ha de passar?",
+    "r": "Es pot decidir per tota la humanitat quan el cost de no decidir també el paga la humanitat?"
+   },
+   {
+    "t": "El traductor que menteix",
+    "q": "Ets l'únic intèrpret en una negociació entre humans i alienígenes. Te n'adones que una traducció literal ofendria profundament els alienígenes i faria fracassar l'acord. La pots suavitzar sense que ningú ho sàpiga. Els líders humans t'han dit explícitament que tradueixis amb exactitud. Què fas?",
+    "r": "Traeixes el teu càrrec si menteixes per salvar allò que et van encarregar protegir?"
+   },
+   {
+    "t": "La mascota de la galàxia",
+    "q": "Descobrim que per a una civilització molt avançada, els humans som una espècie protegida que fa mil·lennis que cuiden discretament. Ens tracten amb afecte, però com una cosa que cal preservar, no com a iguals. Quin to fas servir per respondre'ls: agraïment, exigència d'igualtat o una cosa completament diferent?",
+    "r": "Val més la dignitat de ser lliure que la seguretat d'estar protegit?"
+   },
+   {
+    "q": "Si coneguessis un alienígena amistós, què seria el primer que li preguntaries i què el primer que li explicaries sobre la humanitat?",
+    "rec": "Projecte Hail Mary"
+   },
+   {
+    "q": "Aterres en un planeta on tots els alienígenes es comuniquen amb música. Quina cançó faries servir per presentar-te?"
+   }
+  ]
+ },
+ "specials": [
+  {
+   "n": "Bomba de fum",
+   "p": "Juga-la quan no tinguis ni idea de què respondre. Et saltes el torn sense penalització i guanyes 1 punt automàtic.",
+   "note": "El grup et pot esbroncar lliurement."
+  },
+  {
+   "n": "Temps extra",
+   "p": "No respons ara. El teu torn passa automàticament al final de la ronda.",
+   "note": "Perfecta per robar idees mentre els altres parlen."
+  },
+  {
+   "n": "Doble personalitat",
+   "p": "En lloc de respondre, imita un altre jugador de la taula. Si algú endevina qui és, tu guanyes 1 punt i qui l'endevini també.",
+   "note": "Optes a 2 punts: un per la teva resposta i un altre per la teva imitació."
+  },
+  {
+   "n": "Intercanvi legal",
+   "p": "Juga-la quan et toqui una carta que no saps respondre. Tria un jugador i intercanvia-li la teva carta.",
+   "note": "Ningú no es pot fer enrere després de l'intercanvi."
+  },
+  {
+   "n": "Advocat del diable",
+   "p": "Tria un jugador i, just abans que parli, aplica la teva carta: haurà de respondre defensant exactament el contrari del que pensa.",
+   "note": "Si aconsegueix ser convincent, tots dos guanyeu un punt."
+  },
+  {
+   "n": "Resposta compartida",
+   "p": "Tria un jugador perquè t'ajudi a respondre. Teniu 30 segons per posar-vos d'acord en una única resposta conjunta.",
+   "note": "Per quan no hi ha qui respongui la carta tot sol."
+  },
+  {
+   "n": "Robatori de protagonisme",
+   "p": "Respon una pregunta que ja hagi respost un altre jugador. Si el grup considera que la teva resposta ha estat millor, li robes el punt.",
+   "note": "Si és pitjor, quedes oficialment en ridícul."
+  }
+ ],
+ "lifelines": [
+  {
+   "n": "Escola de drama",
+   "p": "Posa la teva cara més dramàticament horroritzada durant 10 segons mentre algú llegeix la pregunta amb entonació de telenovel·la. El grup vota si ha estat prou patètic."
+  },
+  {
+   "n": "Canta i pateix",
+   "p": "Canta els primers 15 segons d'una cançó que triï el jugador de la teva esquerra. La que sigui. Sense negociació."
+  },
+  {
+   "n": "Secret",
+   "p": "Explica-li a cau d'orella al jugador de la teva dreta alguna cosa de tu. Ell la repetirà en veu alta i tu no li pots corregir res."
+  },
+  {
+   "n": "Estàtua",
+   "p": "Mantén una postura absurda que triï el grup mentre el següent jugador fa la seva resposta sencera. Si et mous, perds el punt."
+  },
+  {
+   "n": "Trucada en directe",
+   "p": "Truca o envia un àudio ara mateix a algú que no sigui a la partida i pregunta-li què faria. La seva resposta competeix en lloc teu."
+  }
+ ],
+ "ui": {
+  "readSynopsis": "Llegir sinopsi",
+  "reserve": "Reserva'l ja",
+  "newBadge": "NOU",
+  "today": "avui",
+  "yesterday": "ahir",
+  "daysAgo": "fa {n} dies",
+  "done": "✓ Fet",
+  "missions": "{n} missions completades",
+  "live": "En directe · ",
+  "lastSignal": "Últim senyal ",
+  "fallbackData": "Dades del 25 set. 2026",
+  "flip": "Girar",
+  "drawAnother": "Robar una altra carta",
+  "ifYouLiked": "Si t'ha agradat aquesta pregunta:",
+  "specialCard": "Carta especial",
+  "guidesThanks": "Gràcies per subscriure't! Ja pots descarregar les guies.",
+  "openMenu": "Obrir menú",
+  "closeMenu": "Tancar menú",
+  "watchOn": "Veure a YouTube:",
+  "bookAria": "llegir sinopsi",
+  "flipCardAria": "Girar la carta",
+  "language": "Idioma"
+ },
+ "coral": {
+  "paperOut": "Ja disponible en paper!",
+  "paperChip": "Ja disponible",
+  "paperText": "L'edició en paper ja està disponible. Et deixo l'avís per si vols rebre les novetats."
+ }
+}

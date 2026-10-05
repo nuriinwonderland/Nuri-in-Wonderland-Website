@@ -1,0 +1,541 @@
+<title>Coral Red 402</title>
+<meta name="description" content="Coral Red 402, de Nuria Blanco: un thriller de ciencia ficción sobre la identidad, la memoria y el precio de conocer la verdad. Ya en preventa.">
+<meta name="theme-color" content="#07080B">
+<script>document.documentElement.classList.add("js")</script>
+<link rel="preconnect" href="https://fonts.googleapis.com"><link rel="preconnect" href="https://fonts.gstatic.com" crossorigin><link href="https://fonts.googleapis.com/css2?family=Geist:wght@300;400;500;600;700&family=Geist+Mono:wght@400;500&family=Barlow+Condensed:wght@600;700;800&display=swap" rel="stylesheet">
+<style>
+:root{
+  --bg:#07080B;
+  --surface:rgba(18,20,26,.72);
+  --surface-2:#161920;
+  --line:rgba(236,238,242,.08);
+  --line-strong:rgba(236,238,242,.16);
+  --text:#EEF0F3;
+  --muted:#9AA1AC;
+  --faint:#626873;
+  --red:#E3342F;
+  --red-hot:#FF5147;
+  --red-glow:rgba(227,52,47,.38);
+  --steel:#A9BCCD;
+  --sans:"Geist", system-ui, -apple-system, sans-serif;
+  --mono:"Geist Mono", ui-monospace, monospace;
+  --cond:"Barlow Condensed", "Arial Narrow", sans-serif;
+  --ease-out:cubic-bezier(0.23, 1, 0.32, 1);
+  --ease-in-out:cubic-bezier(0.77, 0, 0.175, 1);
+  --gutter:clamp(16px, 4vw, 40px);
+  --max:1200px;
+  color-scheme:dark;
+}
+*,*::before,*::after{box-sizing:border-box}
+html{scroll-behavior:smooth;-webkit-text-size-adjust:100%}
+body{margin:0;background:var(--bg);color:var(--text);font:400 16px/1.6 var(--sans);-webkit-font-smoothing:antialiased;-webkit-tap-highlight-color:transparent;overflow-x:hidden}
+img{display:block;max-width:100%}
+a{color:inherit;text-decoration:none}
+button{font:inherit;color:inherit;background:none;border:0;cursor:pointer;padding:0}
+::selection{background:var(--red);color:#fff}
+:focus-visible{outline:2px solid var(--red-hot);outline-offset:3px;border-radius:10px}
+.wrap{max-width:var(--max);margin:0 auto;padding:0 var(--gutter)}
+.mono{font-family:var(--mono);font-size:12px;letter-spacing:.05em;text-transform:uppercase;color:var(--muted)}
+
+#neural{position:fixed;inset:0;width:100%;height:100%;z-index:-1;pointer-events:none}
+.vignette{position:fixed;inset:0;z-index:-1;pointer-events:none;background:radial-gradient(60% 50% at 75% 30%, rgba(227,52,47,.14), transparent 70%), radial-gradient(80% 60% at 50% 120%, rgba(0,0,0,.9), transparent 70%)}
+
+/* ---------- buttons ---------- */
+.btn{display:inline-flex;align-items:center;justify-content:center;gap:8px;height:48px;padding:0 24px;border-radius:999px;font-weight:600;font-size:15px;white-space:nowrap;user-select:none;transition:transform 160ms var(--ease-out), background-color 200ms ease, border-color 200ms ease, box-shadow 250ms ease}
+.btn:active{transform:scale(.97)}
+.btn-red{background:var(--red);color:#fff}
+.btn-ghost{border:1px solid var(--line-strong);background:rgba(10,11,14,.5);backdrop-filter:blur(8px);-webkit-backdrop-filter:blur(8px)}
+.btn-light{background:var(--text);color:var(--bg)}
+.btn-sm{height:40px;padding:0 16px;font-size:14px}
+@media (hover:hover) and (pointer:fine){
+  .btn-red:hover{background:var(--red-hot);box-shadow:0 0 36px 4px var(--red-glow)}
+  .btn-ghost:hover{border-color:var(--text)}
+  .btn-light:hover{background:#fff}
+}
+.arrow{display:inline-block;transition:transform 200ms var(--ease-out)}
+@media (hover:hover) and (pointer:fine){ .btn:hover .arrow, a:hover .arrow{transform:translateX(3px)} .back:hover .arrow{transform:translateX(-3px)} }
+.chip{display:inline-flex;align-items:center;gap:8px;height:30px;padding:0 12px 0 10px;border-radius:999px;background:rgba(227,52,47,.1);border:1px solid rgba(227,52,47,.3);font:500 12px var(--mono);letter-spacing:.05em;text-transform:uppercase;color:var(--red-hot)}
+.chip i{width:7px;height:7px;border-radius:50%;background:currentColor;box-shadow:0 0 10px currentColor;animation:blink 1.6s steps(2, jump-none) infinite}
+@keyframes blink{50%{opacity:.25}}
+.chip.steel{background:rgba(169,188,205,.08);border-color:rgba(169,188,205,.22);color:var(--steel)}
+.chip.steel i{animation:none}
+
+/* ---------- nav ---------- */
+.nav{position:fixed;top:0;left:0;right:0;z-index:50;padding-top:env(safe-area-inset-top);transition:background-color 200ms ease}
+.nav.scrolled{background:rgba(7,8,11,.75);backdrop-filter:blur(16px) saturate(140%);-webkit-backdrop-filter:blur(16px) saturate(140%)}
+.nav-inner{display:flex;align-items:center;justify-content:space-between;height:68px;gap:12px}
+.back{display:inline-flex;align-items:center;gap:10px;font-size:14px;font-weight:500;color:var(--muted);height:40px;padding:0 14px 0 10px;border-radius:999px;border:1px solid var(--line);transition:color 150ms ease, border-color 150ms ease, transform 160ms var(--ease-out)}
+.back:active{transform:scale(.97)}
+@media (hover:hover) and (pointer:fine){ .back:hover{color:var(--text);border-color:var(--line-strong)} }
+.logo{font-weight:600;font-size:17px;letter-spacing:-.02em;display:flex;align-items:center;gap:10px}
+.logo b{font-weight:600;color:#6FE3CF}
+.logo-mark{width:22px;height:22px;border-radius:50%;background:radial-gradient(circle at 35% 35%, #bff5ea, #6FE3CF 45%, #1a5c52);box-shadow:0 0 14px rgba(111,227,207,.35)}
+@media (max-width:560px){ .logo span:last-child{display:none} }
+.nav-right{display:flex;align-items:center;gap:8px}
+.lang{position:relative}
+.lang-btn{display:inline-flex;align-items:center;gap:6px;height:40px;padding:0 12px;border-radius:999px;border:1px solid var(--line-strong);font:500 12px var(--mono);letter-spacing:.04em;color:var(--muted);transition:color 150ms ease, border-color 150ms ease, transform 160ms var(--ease-out)}
+.lang-btn:active{transform:scale(.96)}
+@media (hover:hover) and (pointer:fine){ .lang-btn:hover{color:var(--text);border-color:var(--text)} }
+.lang.open .lang-btn{color:var(--text);border-color:var(--text)}
+.lang-menu{position:absolute;right:0;top:calc(100% + 8px);min-width:190px;padding:6px;border-radius:16px;background:rgba(16,18,24,.97);border:1px solid var(--line-strong);box-shadow:0 24px 50px -20px rgba(0,0,0,.9);backdrop-filter:blur(14px);-webkit-backdrop-filter:blur(14px);
+  transform-origin:top right;opacity:0;transform:scale(.96) translateY(-4px);visibility:hidden;pointer-events:none;transition:opacity 120ms ease, transform 120ms var(--ease-out), visibility 0s linear 120ms;z-index:60}
+.lang.open .lang-menu{opacity:1;transform:none;visibility:visible;pointer-events:auto;transition:opacity 180ms ease, transform 180ms var(--ease-out), visibility 0s}
+.lang-menu button{display:flex;align-items:center;gap:10px;width:100%;padding:9px 10px;border-radius:10px;font-size:14px;text-align:left;transition:background-color 120ms ease}
+.lang-menu button:active{background:rgba(255,255,255,.08)}
+@media (hover:hover) and (pointer:fine){ .lang-menu button:hover{background:rgba(255,255,255,.06)} }
+.lang-menu .code{font:500 11px var(--mono);color:var(--muted);width:22px}
+.lang-menu .tick{margin-left:auto;color:var(--red-hot);opacity:0}
+.lang-menu [aria-checked="true"] .tick{opacity:1}
+.lang-menu [aria-checked="true"]{color:var(--red-hot)}
+
+/* ---------- hero ---------- */
+.hero{position:relative;overflow-x:clip;padding:calc(110px + env(safe-area-inset-top)) 0 80px}
+.hero-grid{display:grid;grid-template-columns:1.1fr .9fr;gap:clamp(24px, 5vw, 72px);align-items:center}
+@media (max-width:900px){ .hero-grid{grid-template-columns:1fr} .stage-wrap{order:-1} }
+.title{margin:22px 0 18px;font-family:var(--cond);font-weight:800;text-transform:uppercase;line-height:.8;letter-spacing:-.01em}
+.title .l1{display:block;font-size:clamp(84px, 13vw, 200px)}
+.title .l2{display:flex;align-items:flex-end;gap:.18em;font-size:clamp(84px, 13vw, 200px);color:var(--red)}
+.title .num{font-size:.5em;line-height:.85;color:transparent;-webkit-text-stroke:2px var(--red-hot);position:relative}
+.glitch{animation:glitch 900ms steps(1) 600ms both}
+@keyframes glitch{
+  0%{text-shadow:none;transform:none}
+  10%{text-shadow:4px 0 var(--red-hot), -4px 0 #6FE3CF;transform:translateX(2px)}
+  20%{text-shadow:-3px 0 var(--red-hot), 3px 0 #6FE3CF;transform:translateX(-2px) skewX(-4deg)}
+  30%{text-shadow:none;transform:none}
+  55%{text-shadow:2px 0 var(--red-hot), -2px 0 #6FE3CF;transform:translateX(1px)}
+  65%,100%{text-shadow:none;transform:none}
+}
+.tagline{font-size:clamp(22px, 2.6vw, 32px);font-weight:600;letter-spacing:-.03em;line-height:1.2;margin:0 0 30px;max-width:560px;color:var(--red-hot)}
+.hero .lead strong{color:var(--text);font-weight:500}
+.buy-now{display:flex;flex-direction:column;gap:10px}
+.buy-row{display:flex;gap:10px;flex-wrap:wrap}
+.btn-pending{border:1px dashed var(--line-strong);color:var(--muted);cursor:default;font-weight:500}
+.store.pending{border-style:dashed;color:var(--muted);cursor:default}
+.store.pending .amz{color:var(--faint)}
+.lead{color:var(--muted);font-size:clamp(17px, 1.5vw, 20px);max-width:560px;margin:0 0 14px}
+.hero-actions{display:flex;gap:12px;flex-wrap:wrap}
+
+.countdown{margin-top:40px;display:flex;align-items:center;gap:18px;flex-wrap:wrap;padding:16px 20px;border-radius:20px;background:var(--surface);border:1px solid var(--line);backdrop-filter:blur(8px);-webkit-backdrop-filter:blur(8px);width:max-content;max-width:100%}
+.cd-label{display:flex;flex-direction:column;gap:2px}
+.cd-label b{font-weight:600;font-size:16px;color:var(--text)}
+.cd-label .mono{color:#FFC9C4}
+.cd{display:flex;gap:8px}
+.cd div{min-width:62px;text-align:center;padding:10px 8px 8px;border-radius:14px;background:linear-gradient(180deg, rgba(227,52,47,.26), rgba(227,52,47,.12));border:1px solid rgba(255,81,71,.45);box-shadow:inset 0 1px 0 rgba(255,255,255,.08)}
+.cd b{display:block;font-family:var(--cond);font-weight:800;font-size:34px;line-height:1;font-variant-numeric:tabular-nums;color:#fff;text-shadow:0 0 18px rgba(255,81,71,.45)}
+.cd span{display:block;margin-top:5px;font:600 10px var(--mono);letter-spacing:.08em;text-transform:uppercase;color:#FFC9C4}
+
+.stage-wrap{position:relative;display:grid;place-items:center;min-height:470px}
+@media (max-width:900px){ .stage-wrap{min-height:420px} }
+.halo{position:absolute;width:78%;aspect-ratio:1;border-radius:50%;background:radial-gradient(circle, rgba(227,52,47,.35), rgba(227,52,47,.08) 45%, transparent 70%);filter:blur(10px);animation:breathe 6s ease-in-out infinite alternate}
+@keyframes breathe{from{transform:scale(.92);opacity:.8}to{transform:scale(1.05);opacity:1}}
+.scan{position:absolute;width:86%;aspect-ratio:1;border-radius:50%;border:1px dashed rgba(227,52,47,.3)}
+.scan::after{content:"";position:absolute;inset:-1px;border-radius:50%;background:conic-gradient(from 0deg, rgba(255,81,71,.35), transparent 18%);-webkit-mask:radial-gradient(closest-side, transparent 97%, #000 98%);mask:radial-gradient(closest-side, transparent 97%, #000 98%);animation:spin 8s linear infinite}
+@keyframes spin{to{transform:rotate(1turn)}}
+.stage{perspective:1400px;position:relative;z-index:1}
+.b3d{--t:30px;--w:clamp(210px, 24vw, 300px);position:relative;width:var(--w);aspect-ratio:2/3;transform-style:preserve-3d;transform:rotateY(-28deg) rotateX(6deg);will-change:transform}
+.b3d > *{position:absolute;inset:0;backface-visibility:hidden}
+.b3d .front{transform:translateZ(calc(var(--t) / 2));border-radius:2px 6px 6px 2px;overflow:hidden;box-shadow:0 0 60px -10px var(--red-glow)}
+.b3d .front img{width:100%;height:100%;object-fit:cover}
+.b3d .front::after{content:"";position:absolute;inset:0;background:linear-gradient(90deg, rgba(0,0,0,.4), transparent 6%, rgba(255,255,255,.07) 9%, transparent 14%), radial-gradient(circle at var(--gx, 30%) var(--gy, 20%), rgba(255,255,255,.18), transparent 50%)}
+.b3d .spine{left:0;width:var(--t);right:auto;transform:translateX(calc(var(--t) / -2)) rotateY(-90deg);background:#0c1622 url("assets/img/coral-red-402-v2.jpg") left center/auto 100%;filter:brightness(.5)}
+.b3d .pages{left:auto;right:0;width:var(--t);top:3px;bottom:3px;transform:translateX(calc(var(--t) / 2)) rotateY(90deg);background:repeating-linear-gradient(90deg, #ebe6da 0 1px, #cfc8b8 1px 2px)}
+.b3d .back{transform:translateZ(calc(var(--t) / -2)) rotateY(180deg);background:#0c1622;border-radius:6px 2px 2px 6px}
+.tagfile{position:absolute;z-index:2;display:flex;flex-direction:column;gap:2px;padding:10px 14px;border-radius:14px;background:rgba(14,16,21,.85);backdrop-filter:blur(10px);-webkit-backdrop-filter:blur(10px);border:1px solid var(--line-strong);box-shadow:0 20px 40px -16px rgba(0,0,0,.8);animation:float 5s ease-in-out infinite alternate}
+.tagfile b{font-weight:600;font-size:14px}
+.tagfile .mono{font-size:10px}
+.tagfile.t1{left:0;top:14%}
+.tagfile.t2{right:0;top:48%;animation-delay:-2s}
+.tagfile.t3{left:6%;bottom:6%;animation-delay:-3.5s}
+.tagfile.t3 b{color:var(--red-hot)}
+@keyframes float{from{transform:translateY(-6px)}to{transform:translateY(6px)}}
+@media (max-width:520px){ .tagfile.t2{right:-4px} .tagfile.t1{left:-4px} }
+
+.synopsis{max-width:580px;margin:0 0 8px}
+.synopsis p{margin:0 0 14px;color:var(--muted);font-size:clamp(15px, 1.25vw, 17px);line-height:1.65}
+.synopsis p:first-child{color:#D7DAE0}
+.synopsis p.hook{font-size:clamp(19px, 1.8vw, 23px);font-weight:600;letter-spacing:-.02em;line-height:1.3;color:var(--red-hot)}
+.synopsis p.white,.synopsis p.white .redact{color:var(--text)}
+.synopsis p.blurb{margin-top:20px;padding:16px 18px;border-radius:16px;background:rgba(227,52,47,.09);border:1px solid rgba(255,81,71,.32);color:#E4E6EA;font-size:15px;line-height:1.6}
+.synopsis p.blurb strong{color:var(--red-hot)}
+.synopsis strong{color:var(--text);font-weight:600}
+
+/* ---------- buy panel: both editions side by side, right under the hero ---------- */
+.buy-panel{display:grid;grid-template-columns:1.15fr 1fr;gap:18px;margin-top:clamp(36px, 5vw, 56px)}
+@media (max-width:960px){ .buy-panel{grid-template-columns:1fr} }
+.buy-card{position:relative;display:grid;grid-template-columns:auto 1fr;gap:clamp(18px, 3vw, 32px);align-items:center;padding:clamp(20px, 3vw, 30px);border-radius:28px;background:var(--surface);border:1px solid var(--line);backdrop-filter:blur(8px);-webkit-backdrop-filter:blur(8px);overflow:hidden}
+.buy-card.ebook{border-color:rgba(227,52,47,.35);background:radial-gradient(100% 80% at 0% 100%, rgba(227,52,47,.16), transparent 60%), var(--surface)}
+.buy-card .shot{height:clamp(170px, 18vw, 230px);width:auto;filter:drop-shadow(0 24px 30px rgba(0,0,0,.7));transition:transform 500ms var(--ease-out)}
+@media (hover:hover) and (pointer:fine){ .buy-card:hover .shot{transform:translateY(-6px) rotate(-2deg)} }
+.buy-card h2{margin:12px 0 10px;font-family:var(--cond);font-weight:800;text-transform:uppercase;font-size:clamp(30px, 3vw, 40px);line-height:.9}
+.buy-card .buy-row{margin-top:10px}
+.buy-card .buy-row .btn{height:44px;padding:0 16px;font-size:14px}
+.buy-card p{margin:0 0 12px;color:var(--muted);font-size:15px}
+.buy-card .lead-paper{font-size:17px;font-weight:600;color:var(--text);margin-bottom:6px}
+.mock{perspective:900px;padding:6px 18px 6px 4px;filter:drop-shadow(0 24px 30px rgba(0,0,0,.7))}
+.b3d.mini{--t:18px;--w:clamp(112px, 11vw, 150px);transform:rotateY(-28deg) rotateX(4deg);transition:transform 600ms var(--ease-out)}
+.b3d.mini .front{box-shadow:none}
+@media (hover:hover) and (pointer:fine){ .buy-card:hover .b3d.mini{transform:rotateY(-12deg) rotateX(2deg) translateY(-6px)} }
+@media (max-width:560px){ .mock{justify-self:center} }
+.buy-card .countdown{margin:10px 0 14px;padding:0;background:none;border:0;backdrop-filter:none;-webkit-backdrop-filter:none;gap:12px}
+.buy-card .cd div{min-width:56px}
+.buy-card .cd b{font-size:30px}
+@media (max-width:560px){ .buy-card{grid-template-columns:1fr} .buy-card .shot{height:160px;justify-self:center} }
+
+/* ---------- sections ---------- */
+section{scroll-margin-top:72px;position:relative}
+.section{padding:clamp(80px, 11vw, 140px) 0}
+.h2{font-family:var(--cond);font-weight:800;text-transform:uppercase;font-size:clamp(48px, 7vw, 96px);line-height:.88;margin:18px 0 0}
+.h2 span{color:var(--red)}
+.js .reveal{opacity:0;transform:translateY(18px);transition:opacity 700ms ease, transform 800ms var(--ease-out);transition-delay:calc(var(--i,0) * 70ms)}
+.js .reveal.in{opacity:1;transform:none}
+
+.stats{display:grid;grid-template-columns:repeat(4, 1fr);gap:12px}
+@media (max-width:760px){ .stats{grid-template-columns:repeat(2, 1fr)} }
+.stat{padding:22px;border-radius:22px;background:var(--surface);border:1px solid var(--line);backdrop-filter:blur(6px);-webkit-backdrop-filter:blur(6px)}
+.stat b{display:block;font-family:var(--cond);font-weight:800;font-size:clamp(40px, 5vw, 60px);line-height:.9;text-transform:uppercase}
+.stat b.red{color:var(--red)}
+.stat span{font-size:14px;color:var(--muted)}
+
+/* ---------- the file ---------- */
+.file{position:relative;margin-top:44px;border-radius:28px;background:rgba(12,13,17,.86);border:1px solid var(--line);overflow:hidden;backdrop-filter:blur(8px);-webkit-backdrop-filter:blur(8px)}
+.file-head{display:flex;flex-wrap:wrap;gap:10px;padding:18px 22px;background:rgba(255,255,255,.025)}
+.kv{display:flex;flex-direction:column;padding:8px 14px;border-radius:12px;background:rgba(255,255,255,.03)}
+.kv b{font-weight:500;font-size:14px}
+.kv b.red{color:var(--red-hot)}
+.kv .mono{font-size:10px}
+.stamp{margin-left:auto;align-self:center;font-family:var(--cond);font-weight:800;font-size:22px;letter-spacing:.08em;text-transform:uppercase;color:var(--red);border:2px solid var(--red);padding:2px 12px;border-radius:8px;transform:rotate(-4deg);opacity:.85}
+@media (max-width:640px){ .stamp{margin-left:0} }
+.file-body{display:grid;grid-template-columns:1fr 280px;gap:clamp(24px, 4vw, 56px);padding:clamp(24px, 4vw, 48px)}
+@media (max-width:860px){ .file-body{grid-template-columns:1fr} }
+.file-body p{margin:0 0 18px;font-size:clamp(16px, 1.4vw, 18px);line-height:1.7;color:#C9CDD4;max-width:680px}
+.file-body p.big{font-size:clamp(22px, 2.4vw, 30px);line-height:1.3;font-weight:600;letter-spacing:-.025em;color:var(--text)}
+.file-body p strong{color:var(--text);font-weight:600}
+/* Redacted memories: a black bar that wipes away when the file is read */
+.redact{color:var(--text);font-weight:600}
+.redact.hot{color:var(--red-hot)}
+.side-notes{display:flex;flex-direction:column;gap:12px}
+.note{padding:16px;border-radius:16px;background:rgba(255,255,255,.03);border:1px solid var(--line)}
+.note .mono{font-size:10px}
+.note b{display:block;margin-top:4px;font-weight:600}
+.genres{display:flex;flex-wrap:wrap;gap:8px}
+.genres span{font-size:13px;padding:6px 12px;border-radius:999px;background:rgba(227,52,47,.1);color:#FFB3AD}
+.restore{display:flex;align-items:center;gap:10px;font:500 11px var(--mono);letter-spacing:.05em;text-transform:uppercase;color:var(--muted)}
+.restore .bar{flex:1;height:4px;border-radius:4px;background:rgba(255,255,255,.08);overflow:hidden}
+.restore .bar i{display:block;height:100%;background:var(--red);transform-origin:left;transform:scaleX(0);transition:transform 2400ms var(--ease-in-out) 400ms}
+.file.in .restore .bar i{transform:scaleX(1)}
+
+/* ---------- gift ---------- */
+.gift{position:relative;border-radius:32px;overflow:hidden;padding:clamp(26px, 5vw, 64px);background:radial-gradient(80% 120% at 0% 0%, rgba(227,52,47,.28), transparent 60%), radial-gradient(60% 80% at 100% 100%, rgba(227,52,47,.12), transparent 60%), #0E0F14;border:1px solid rgba(227,52,47,.28)}
+.gift-top{display:grid;grid-template-columns:1fr auto;gap:24px;align-items:end;margin-bottom:36px}
+@media (max-width:760px){ .gift-top{grid-template-columns:1fr} }
+.gift-top p{color:#D3D6DC;margin:16px 0 0;max-width:560px;font-size:17px}
+.gift-top p strong{color:var(--text)}
+.promo-cd{display:flex;align-items:center;gap:18px;flex-wrap:wrap;margin:-8px 0 28px;padding:16px 18px;border-radius:20px;background:rgba(7,8,11,.5);border:1px solid rgba(255,81,71,.3);width:max-content;max-width:100%}
+.promo-over{margin:-8px 0 24px;color:var(--muted)}
+.perks{display:grid;grid-template-columns:repeat(3, 1fr);gap:14px}
+@media (max-width:860px){ .perks{grid-template-columns:1fr} }
+.perk{padding:24px;border-radius:22px;background:rgba(7,8,11,.55);border:1px solid var(--line);display:flex;flex-direction:column;gap:12px;transition:transform 300ms var(--ease-out), border-color 250ms ease}
+@media (hover:hover) and (pointer:fine){ .perk:hover{transform:translateY(-4px);border-color:rgba(227,52,47,.4)} }
+.perk .ic{width:48px;height:48px;border-radius:14px;display:grid;place-items:center;background:rgba(227,52,47,.14);color:var(--red-hot)}
+.perk h3{margin:0;font-weight:600;font-size:19px;letter-spacing:-.02em;line-height:1.25}
+.gift small{display:block;margin-top:22px;color:var(--muted);font-size:13px}
+
+/* ---------- buy ---------- */
+.formats{display:grid;grid-template-columns:1fr 1fr;gap:18px;margin-top:44px}
+@media (max-width:860px){ .formats{grid-template-columns:1fr} }
+.format{position:relative;display:grid;grid-template-columns:1fr;gap:24px;align-content:start;padding:clamp(22px, 3vw, 34px);border-radius:28px;background:var(--surface);border:1px solid var(--line);backdrop-filter:blur(8px);-webkit-backdrop-filter:blur(8px);overflow:hidden}
+.format.primary{border-color:rgba(227,52,47,.35);background:radial-gradient(100% 80% at 0% 100%, rgba(227,52,47,.16), transparent 60%), var(--surface)}
+.format .shot{height:clamp(220px, 26vw, 300px);width:auto;justify-self:center}
+.format .shot{filter:drop-shadow(0 30px 40px rgba(0,0,0,.7));transition:transform 500ms var(--ease-out)}
+@media (hover:hover) and (pointer:fine){ .format:hover .shot{transform:translateY(-6px) rotate(-2deg)} }
+.format h3{margin:12px 0 6px;font-family:var(--cond);font-weight:800;text-transform:uppercase;font-size:clamp(32px, 3.4vw, 44px);line-height:.9}
+.format p{margin:0 0 18px;color:var(--muted);font-size:15px}
+.stores{display:flex;flex-direction:column;gap:8px}
+.store{display:flex;align-items:center;gap:12px;padding:12px 14px;border-radius:14px;background:rgba(255,255,255,.04);border:1px solid var(--line);font-weight:500;transition:background-color 150ms ease, border-color 150ms ease, transform 160ms var(--ease-out)}
+.store:active{transform:scale(.98)}
+@media (hover:hover) and (pointer:fine){ .store:hover{background:rgba(227,52,47,.12);border-color:rgba(227,52,47,.4)} }
+.store .flag{font-size:20px;line-height:1}
+.store .amz{margin-left:auto;font:500 10px var(--mono);letter-spacing:.05em;text-transform:uppercase;color:var(--muted);display:flex;align-items:center;gap:6px}
+.soon{margin:12px 0 0;font-size:13px;color:var(--faint);max-width:520px}
+.format.solo{grid-template-columns:auto 1fr;gap:clamp(24px, 4vw, 56px);align-items:center;margin-top:36px;max-width:880px;border-color:rgba(227,52,47,.3)}
+.format.solo p{font-size:16px;max-width:460px}
+.format.solo .lead-paper{font-size:clamp(20px, 2vw, 26px);font-weight:600;letter-spacing:-.02em;color:var(--text);margin-bottom:10px}
+@media (max-width:640px){ .format.solo{grid-template-columns:1fr} }
+.mini-cd{display:flex;gap:6px;margin:4px 0 18px}
+.mini-cd span{font:500 12px var(--mono);padding:6px 10px;border-radius:8px;background:rgba(255,255,255,.05);font-variant-numeric:tabular-nums}
+
+/* ---------- footer ---------- */
+footer{padding:80px 0 calc(40px + env(safe-area-inset-bottom));text-align:center}
+.foot-big{font-family:var(--cond);font-weight:800;text-transform:uppercase;font-size:clamp(64px, 14vw, 200px);line-height:.82;margin:0 0 32px}
+.foot-big span{color:var(--red)}
+.foot-row{display:flex;justify-content:space-between;gap:20px;flex-wrap:wrap;color:var(--muted);font-size:14px;padding:18px 22px;border-radius:20px;background:var(--surface);text-align:left;margin-top:48px}
+.foot-row nav{display:flex;gap:18px;flex-wrap:wrap}
+
+@media (prefers-reduced-motion: reduce){
+  html{scroll-behavior:auto}
+  .glitch,.halo,.scan::after,.tagfile,.chip i{animation:none}
+  .js .reveal{transform:none}
+  .b3d{transform:rotateY(-20deg)!important}
+}
+</style>
+<canvas id="neural" aria-hidden="true"></canvas>
+<div class="vignette" aria-hidden="true"></div>
+
+<header class="nav" id="nav">
+  <div class="wrap nav-inner">
+    <a class="back" href="https://claude.ai/artifact/JAGxE69rdX8HPSszyezPEC#libros" target="_blank" rel="noopener" data-i18n="c000"><span class="arrow" aria-hidden="true">←</span>Volver</a>
+    <a href="https://claude.ai/artifact/JAGxE69rdX8HPSszyezPEC" target="_blank" rel="noopener" class="logo" aria-label="Nuri In Wonderland, inicio" data-i18n="c001"><span class="logo-mark" aria-hidden="true"></span><span>Nuri in <b>Wonderland</b></span></a>
+    <div class="nav-right"><div class="lang" id="langHost"></div><a class="btn btn-red btn-sm" href="#comprar-ebook" data-i18n="c002">Comprar</a></div>
+  </div>
+</header>
+
+<main>
+<!-- ============ HERO ============ -->
+<section class="hero">
+  <div class="wrap hero-grid">
+    <div>
+      <span class="chip" data-i18n="c003"><i></i>Ya en preventa · ebook</span>
+      <h1 class="title" data-i18n="c004"><span class="l1">Coral</span><span class="l2"><span class="glitch">Red</span><span class="num">402</span></span></h1>
+      <div class="synopsis">
+        <p data-i18n="c031">Sarah Deslauriers, investigadora en NeuralDynamics, despierta en la calle con una herida en la sien y <span class="redact" style="--r:0">siete meses en blanco</span>. Los médicos no encuentran ninguna lesión que lo explique. Su familia, que la daba por muerta, tampoco tiene respuestas. Y cuando vuelve al trabajo, descubre que, durante su ausencia, NeuralDynamics ha lanzado una <span class="redact" style="--r:1">tecnología para borrar recuerdos</span>.</p>
+        <p class="hook" data-i18n="c032">Podría ser casualidad. O podría ser exactamente lo que parece.</p>
+        <p class="white" data-i18n="c033">Mientras investiga su propia desaparición desde dentro de la empresa, Sarah empieza a sospechar algo peor que haber sido víctima de una conspiración: que quizá <span class="redact hot" style="--r:2">ella misma eligió olvidar</span>. Y que si lo hizo, <span class="redact" style="--r:3">tenía sus razones</span>.</p>
+        <p class="blurb" data-i18n="c034"><strong>Coral Red 402</strong> es un thriller de ciencia ficción que combina misterio, conspiraciones, neurociencia y suspense psicológico en una historia sobre la identidad, la memoria y el precio de conocer la verdad.</p>
+      </div>
+    </div>
+    <div class="stage-wrap" id="stageWrap">
+      <div class="halo" aria-hidden="true"></div>
+      <div class="scan" aria-hidden="true"></div>
+      <div class="stage">
+        <div class="b3d" id="book">
+          <div class="back"></div><div class="spine"></div><div class="pages"></div>
+          <div class="front"><img src="assets/img/coral-red-402-v2.jpg" alt="Portada de Coral Red 402, de Nuria Blanco" fetchpriority="high"></div>
+        </div>
+      </div>
+      <div class="tagfile t1" aria-hidden="true" data-i18n="c017"><span class="mono">Sujeto</span><b>Sarah Deslauriers</b></div>
+      <div class="tagfile t2" aria-hidden="true" data-i18n="c018"><span class="mono">NeuralDynamics</span><b>Confidencial</b></div>
+      <div class="tagfile t3" aria-hidden="true" data-i18n="c019"><span class="mono">Memoria sin registrar</span><b>7 meses</b></div>
+    </div>
+  </div>
+
+  <div class="wrap">
+    <div class="buy-panel" id="comprar-ebook">
+      <article class="buy-card ebook">
+        <img class="shot" src="assets/img/ereader.png" alt="Coral Red 402 en un lector electrónico">
+        <div class="buy-body">
+          <span class="chip" data-i18n="c051"><i></i>Preventa abierta</span>
+          <h2 data-i18n="c052">Libro electrónico</h2>
+          <span class="mono" data-i18n="c007">Compra el ebook en preventa</span>
+          <div class="buy-row">
+          <a class="btn btn-red" href="https://www.amazon.es/dp/B0H72LVD6L?spcref=PUBLISHED_PREORDER_LIVE&amp;language=es_US" target="_blank" rel="noopener" data-i18n="c008"><span aria-hidden="true">🇪🇸</span> España</a>
+          <a class="btn btn-red" href="https://www.amazon.com.mx/dp/B0H72LVD6L?spcref=PUBLISHED_PREORDER_LIVE&amp;language=es_US" target="_blank" rel="noopener" data-i18n="c009"><span aria-hidden="true">🇲🇽</span> México</a>
+          <a class="btn btn-red" href="https://www.amazon.com/dp/B0H72LVD6L?spcref=PUBLISHED_PREORDER_LIVE" target="_blank" rel="noopener" data-i18n="c010"><span aria-hidden="true">🌎</span> Resto de LATAM y USA</a>
+          <span class="btn btn-pending" aria-disabled="true" data-i18n="c011">Buscalibre · Próximamente</span>
+        </div>
+          <p class="soon" data-i18n="c058">Estoy trabajando para subir el libro a Buscalibre y que también puedas comprarlo desde allí. ¡Muy pronto más novedades!</p>
+        </div>
+      </article>
+      <article class="buy-card paper">
+        <div class="mock" role="img" aria-label="Coral Red 402, edición en papel">
+          <div class="b3d mini"><div class="back"></div><div class="spine"></div><div class="pages"></div><div class="front"><img src="assets/img/coral-red-402-v2.jpg" alt=""></div></div>
+        </div>
+        <div class="buy-body">
+          <span class="chip" data-i18n="c074"><i></i>Ya disponible</span>
+          <h2 data-i18n="c060">Edición en papel</h2>
+          <p class="lead-paper" data-i18n="c061">Edición de bolsillo y tapa dura.</p>
+          <span class="mono" data-i18n="c073">Cómpralo en Amazon</span>
+          <div class="buy-row">
+          <a class="btn btn-red" href="https://www.amazon.es/dp/B0H72LVD6L?spcref=PUBLISHED_PREORDER_LIVE&amp;language=es_US" target="_blank" rel="noopener" data-i18n="c008"><span aria-hidden="true">🇪🇸</span> España</a>
+          <a class="btn btn-red" href="https://www.amazon.com.mx/dp/B0H72LVD6L?spcref=PUBLISHED_PREORDER_LIVE&amp;language=es_US" target="_blank" rel="noopener" data-i18n="c009"><span aria-hidden="true">🇲🇽</span> México</a>
+          <a class="btn btn-red" href="https://www.amazon.com/dp/B0H72LVD6L?spcref=PUBLISHED_PREORDER_LIVE" target="_blank" rel="noopener" data-i18n="c010"><span aria-hidden="true">🌎</span> Resto de LATAM y USA</a>
+          <span class="btn btn-pending" aria-disabled="true" data-i18n="c011">Buscalibre · Próximamente</span>
+        </div>
+        </div>
+      </article>
+    </div>
+  </div>
+</section>
+
+<!-- ============ GIFT (right after the buying options) ============ -->
+<section class="section gift-section" style="padding:24px 0 0">
+  <div class="wrap">
+    <div class="gift reveal">
+      <div class="gift-top">
+        <div>
+          <span class="chip" data-i18n="c041"><i></i>Coral Red 402</span>
+          <h2 class="h2" data-i18n="c042">Regalo especial <span>de lanzamiento</span></h2>
+          <p data-i18n="c043">Compra Coral Red 402 en <strong>formato ebook durante la preventa</strong> o <strong>en papel el 27 de septiembre</strong> y consigue:</p>
+        </div>
+      </div>
+      <div class="promo-cd" id="promoBox">
+        <span class="mono" data-i18n="c071">La promoción termina en</span>
+        <div class="cd" id="promoCd">
+          <div><b data-p="d">00</b><span data-i18n="c013">días</span></div>
+          <div><b data-p="h">00</b><span data-i18n="c014">horas</span></div>
+          <div><b data-p="m">00</b><span data-i18n="c015">min</span></div>
+          <div><b data-p="s">00</b><span data-i18n="c016">seg</span></div>
+        </div>
+      </div>
+      <p class="promo-over" id="promoOver" hidden data-i18n="c072">La promoción de lanzamiento ha terminado.</p>
+      <div class="perks">
+        <div class="perk reveal" style="--i:0">
+          <span class="ic"><svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.7" stroke-linecap="round"><circle cx="9" cy="8" r="3.5"/><path d="M2.5 20a6.5 6.5 0 0113 0M16 4.5a3.5 3.5 0 010 7M18 14a5.5 5.5 0 013.5 6"/></svg></span>
+          <h3 data-i18n="c045">Acceso gratis a mi comunidad privada donde conocerás a otros apasionados de la fantasía y la ciencia ficción.</h3>
+        </div>
+        <div class="perk reveal" style="--i:1">
+          <span class="ic"><svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.7" stroke-linecap="round"><rect x="3" y="6" width="13" height="12" rx="3"/><path d="M16 10l5-3v10l-5-3"/></svg></span>
+          <h3 data-i18n="c046">Un encuentro exclusivo conmigo para hablar del libro.</h3>
+        </div>
+        <div class="perk reveal" style="--i:2">
+          <span class="ic"><svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.7" stroke-linecap="round"><path d="M12 3v4M12 17v4M3 12h4M17 12h4M6 6l2.5 2.5M15.5 15.5L18 18M6 18l2.5-2.5M15.5 8.5L18 6"/></svg></span>
+          <h3 data-i18n="c047">Contenido extra de Coral Red 402.</h3>
+        </div>
+      </div>
+      <small data-i18n="c048">Oferta válida solo durante la promoción de lanzamiento.</small>
+    </div>
+  </div>
+</section>
+
+<!-- ============ STATS ============ -->
+<section style="padding:clamp(56px, 8vw, 96px) 0 0">
+  <div class="wrap">
+    <div class="stats">
+      <div class="stat reveal" data-i18n="c020"><b class="red">7</b><span>meses en blanco</span></div>
+      <div class="stat reveal" style="--i:1" data-i18n="c021"><b>1</b><span>tecnología para borrar recuerdos</span></div>
+      <div class="stat reveal" style="--i:2" data-i18n="c022"><b>0</b><span>lesiones que lo expliquen</span></div>
+      <div class="stat reveal" style="--i:3" data-i18n="c023"><b class="red">27.09</b><span>llega la edición en papel</span></div>
+    </div>
+  </div>
+</section>
+
+<!-- ============ FILE / SYNOPSIS ============ -->
+
+
+<!-- ============ GIFT ============ -->
+
+<!-- ============ BUY ============ -->
+</main>
+
+<footer>
+  <div class="wrap">
+    <p class="foot-big reveal" data-i18n="c064">Coral <span>Red</span> 402</p>
+    <div class="foot-row">
+      <a href="https://claude.ai/artifact/JAGxE69rdX8HPSszyezPEC" target="_blank" rel="noopener" data-i18n="c066">← Nuri In Wonderland</a>
+      <nav aria-label="Legal">
+        <a href="https://claude.ai/artifact/34rs1WMHK6DDLEDvhRxWaU#aviso-legal" target="_blank" rel="noopener" data-i18n="c067">Aviso legal</a>
+        <a href="https://claude.ai/artifact/34rs1WMHK6DDLEDvhRxWaU#privacidad" target="_blank" rel="noopener" data-i18n="c068">Política de privacidad</a>
+        <a href="https://claude.ai/artifact/34rs1WMHK6DDLEDvhRxWaU#cookies" target="_blank" rel="noopener" data-i18n="c069">Política de cookies</a>
+        <a href="https://claude.ai/artifact/34rs1WMHK6DDLEDvhRxWaU#venta" target="_blank" rel="noopener" data-i18n="c070">Condiciones de venta</a>
+      </nav>
+    </div>
+  </div>
+</footer>
+
+<script src="i18n/strings.js"></script>
+<script src="i18n/runtime.js"></script>
+<script>
+const reduce = matchMedia('(prefers-reduced-motion: reduce)').matches;
+const finePointer = matchMedia('(hover:hover) and (pointer:fine)').matches;
+
+/* ============ NEURAL NETWORK BACKGROUND ============
+   Drifting neurons, synapses between close ones, and signals that travel along them. */
+(() => {
+  const cv = document.getElementById('neural'), ctx = cv.getContext('2d');
+  let W, H, nodes = [], pulses = [], mx = -999, my = -999;
+  const LINK = 150;
+  const build = () => {
+    const dpr = Math.min(devicePixelRatio || 1, 2);
+    W = innerWidth; H = innerHeight;
+    cv.width = W * dpr; cv.height = H * dpr; ctx.setTransform(dpr, 0, 0, dpr, 0, 0);
+    const n = Math.min(90, Math.round(W * H / 16000));
+    nodes = Array.from({length:n}, () => ({x:Math.random() * W, y:Math.random() * H, vx:(Math.random() - .5) * .18, vy:(Math.random() - .5) * .18, r:.8 + Math.random() * 1.6}));
+  };
+  const draw = () => {
+    ctx.clearRect(0, 0, W, H);
+    for (let i = 0; i < nodes.length; i++) for (let j = i + 1; j < nodes.length; j++) {
+      const a = nodes[i], b = nodes[j], dx = a.x - b.x, dy = a.y - b.y, d = Math.hypot(dx, dy);
+      if (d < LINK) { ctx.strokeStyle = `rgba(227,52,47,${(1 - d / LINK) * .22})`; ctx.lineWidth = 1; ctx.beginPath(); ctx.moveTo(a.x, a.y); ctx.lineTo(b.x, b.y); ctx.stroke(); }
+    }
+    for (const p of nodes) {
+      const near = Math.max(0, 1 - Math.hypot(p.x - mx, p.y - my) / 180);
+      ctx.fillStyle = `rgba(255,${120 - near * 60},${110 - near * 60},${.35 + near * .6})`;
+      ctx.beginPath(); ctx.arc(p.x, p.y, p.r + near * 2, 0, 6.283); ctx.fill();
+    }
+    for (const s of pulses) {
+      const x = s.a.x + (s.b.x - s.a.x) * s.t, y = s.a.y + (s.b.y - s.a.y) * s.t;
+      const g = ctx.createRadialGradient(x, y, 0, x, y, 8); g.addColorStop(0, 'rgba(255,140,120,.95)'); g.addColorStop(1, 'rgba(255,80,70,0)');
+      ctx.fillStyle = g; ctx.beginPath(); ctx.arc(x, y, 8, 0, 6.283); ctx.fill();
+    }
+  };
+  const fire = () => {
+    const a = nodes[Math.random() * nodes.length | 0];
+    const b = nodes.filter(n => n !== a && Math.hypot(n.x - a.x, n.y - a.y) < LINK)[0];
+    if (b) pulses.push({a, b, t:0});
+  };
+  const loop = () => {
+    for (const p of nodes) { p.x += p.vx; p.y += p.vy; if (p.x < -20) p.x = W + 20; if (p.x > W + 20) p.x = -20; if (p.y < -20) p.y = H + 20; if (p.y > H + 20) p.y = -20; }
+    for (const s of pulses) s.t += .018;
+    pulses = pulses.filter(s => s.t < 1);
+    if (Math.random() < .05 && pulses.length < 8) fire();
+    draw(); requestAnimationFrame(loop);
+  };
+  build(); addEventListener('resize', () => { build(); if (reduce) draw(); });
+  if (reduce) { draw(); return; }
+  if (finePointer) addEventListener('pointermove', e => { mx = e.clientX; my = e.clientY; }, {passive:true});
+  requestAnimationFrame(loop);
+})();
+
+/* ============ NAV ============ */
+const nav = document.getElementById('nav');
+const onScroll = () => nav.classList.toggle('scrolled', scrollY > 8);
+addEventListener('scroll', onScroll, {passive:true}); onScroll();
+
+/* ============ BOOK: spring tilt toward the pointer ============ */
+const book = document.getElementById('book');
+if (!reduce) {
+  let tx = -28, ty = 6, x = -28, y = 6, vx = 0, vy = 0, gx = 30, gy = 20, raf = null, t0 = performance.now();
+  const tick = t => {
+    // gentle idle sway when the pointer is still
+    const idle = finePointer ? 0 : Math.sin((t - t0) / 1600) * 8;
+    vx = (vx + (tx + idle - x) * .06) * .82; vy = (vy + (ty - y) * .06) * .82; x += vx; y += vy;
+    book.style.transform = `rotateY(${x}deg) rotateX(${y}deg)`;
+    book.style.setProperty('--gx', gx + '%'); book.style.setProperty('--gy', gy + '%');
+    raf = requestAnimationFrame(tick);
+  };
+  if (finePointer) addEventListener('pointermove', e => {
+    const nx = e.clientX / innerWidth - .5, ny = e.clientY / innerHeight - .5;
+    tx = -18 + nx * 36; ty = 4 - ny * 16; gx = 50 + nx * 60; gy = 30 + ny * 60;
+  }, {passive:true});
+  raf = requestAnimationFrame(tick);
+}
+
+const pad = n => String(n).padStart(2, '0');
+
+/* ============ COUNTDOWN to the end of the launch promo (05/10/2026, 23:59:59 Mexico City, UTC-6) ============ */
+const PROMO_END = new Date('2026-10-05T23:59:59-06:00').getTime();
+const pEls = ['d','h','m','s'].map(u => document.querySelector(`[data-p="${u}"]`));
+const tickPromo = () => {
+  const left = PROMO_END - Date.now();
+  if (left <= 0) { document.getElementById('promoBox').hidden = true; document.getElementById('promoOver').hidden = false; return false; }
+  const v = [Math.floor(left / 864e5), Math.floor(left / 36e5) % 24, Math.floor(left / 6e4) % 60, Math.floor(left / 1e3) % 60];
+  pEls.forEach((el, i) => { el.textContent = pad(v[i]); });
+  return true;
+};
+if (tickPromo()) { const ip = setInterval(() => { if (!tickPromo()) clearInterval(ip); }, 1000); }
+
+NW.mount(document.getElementById('langHost'));
+NW.onChange(() => tickPromo());
+if (NW.lang !== 'es') NW.apply();
+
+/* ============ IN-PAGE LINKS ============ */
+document.addEventListener('click', e => {
+  const a = e.target.closest('a[href^="#"]'); if (!a) return;
+  const el = document.getElementById(a.getAttribute('href').slice(1)); if (!el) return;
+  e.preventDefault();
+  el.scrollIntoView({behavior: reduce ? 'auto' : 'smooth', block:'start'});
+});
+
+/* ============ REVEAL ============ */
+const io = new IntersectionObserver(entries => entries.forEach(e => { if (e.isIntersecting) { e.target.classList.add('in'); io.unobserve(e.target); } }), {rootMargin:'0px 0px -80px 0px'});
+document.querySelectorAll('.reveal').forEach(el => io.observe(el));
+</script>

@@ -1,0 +1,140 @@
+<!doctype html>
+<html lang="es">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<title>Gracias por tu compra</title>
+<meta name="robots" content="noindex, nofollow">
+<meta name="theme-color" content="#05070B">
+<link rel="stylesheet" href="assets/fonts/fonts.css">
+<style>
+:root{
+  --bg:#05070B;
+  --surface:rgba(16,20,28,.72);
+  --line:rgba(237,234,227,.08);
+  --line-strong:rgba(237,234,227,.16);
+  --text:#EFEDE8;
+  --muted:#9AA0AA;
+  --faint:#636A75;
+  --accent:#6FE3CF;
+  --accent-ink:#04201B;
+  --glow:rgba(111,227,207,.35);
+  --warn:#FFC766;
+  --sans:"Geist", system-ui, -apple-system, sans-serif;
+  --mono:"Geist Mono", ui-monospace, monospace;
+  --ease-out:cubic-bezier(0.23, 1, 0.32, 1);
+  --gutter:clamp(16px, 4vw, 40px);
+  color-scheme:dark;
+}
+*,*::before,*::after{box-sizing:border-box}
+body{margin:0;min-height:100svh;background:var(--bg);color:var(--text);font:400 16px/1.6 var(--sans);-webkit-font-smoothing:antialiased;display:flex;flex-direction:column}
+body::before{content:"";position:fixed;inset:0;z-index:-1;pointer-events:none;background:radial-gradient(45% 40% at 50% 0%, rgba(111,227,207,.12), transparent 70%)}
+a{color:var(--accent)}
+button{font:inherit;color:inherit;background:none;border:0;cursor:pointer;padding:0}
+:focus-visible{outline:2px solid var(--accent);outline-offset:3px;border-radius:10px}
+.mono{font-family:var(--mono);font-size:12px;letter-spacing:.04em;text-transform:uppercase;color:var(--muted)}
+
+.nav{max-width:960px;width:100%;margin:0 auto;padding:calc(14px + env(safe-area-inset-top)) var(--gutter) 0;display:flex;justify-content:space-between;align-items:center;gap:10px}
+.back{display:inline-flex;align-items:center;gap:8px;height:38px;padding:0 14px 0 10px;border-radius:999px;border:1px solid var(--line);color:var(--muted);text-decoration:none;font-size:14px;font-weight:500;transition:color 150ms ease, border-color 150ms ease, transform 160ms var(--ease-out)}
+.back:active{transform:scale(.97)}
+@media (hover:hover) and (pointer:fine){ .back:hover{color:var(--text);border-color:var(--line-strong)} }
+.lang{position:relative}
+.lang-btn{display:inline-flex;align-items:center;gap:6px;height:38px;padding:0 12px;border-radius:999px;border:1px solid var(--line-strong);font:500 12px var(--mono);letter-spacing:.04em;color:var(--muted)}
+.lang-menu{position:absolute;right:0;top:calc(100% + 8px);min-width:190px;padding:6px;border-radius:16px;background:rgba(14,18,26,.97);border:1px solid var(--line-strong);box-shadow:0 24px 50px -20px rgba(0,0,0,.9);transform-origin:top right;opacity:0;transform:scale(.96) translateY(-4px);visibility:hidden;pointer-events:none;transition:opacity 120ms ease, transform 120ms var(--ease-out), visibility 0s linear 120ms;z-index:60}
+.lang.open .lang-menu{opacity:1;transform:none;visibility:visible;pointer-events:auto;transition:opacity 180ms ease, transform 180ms var(--ease-out), visibility 0s}
+.lang-menu button{display:flex;align-items:center;gap:10px;width:100%;padding:9px 10px;border-radius:10px;font-size:14px;text-align:left}
+@media (hover:hover) and (pointer:fine){ .lang-menu button:hover{background:rgba(255,255,255,.06)} }
+.lang-menu .code{font:500 11px var(--mono);color:var(--muted);width:22px}
+.lang-menu .tick{margin-left:auto;color:var(--accent);opacity:0}
+.lang-menu [aria-checked="true"] .tick{opacity:1}
+.lang-menu [aria-checked="true"]{color:var(--accent)}
+
+main{flex:1;width:100%;max-width:760px;margin:0 auto;padding:clamp(40px, 8vw, 88px) var(--gutter) 64px;text-align:center}
+.badge{display:inline-flex;align-items:center;gap:8px;height:30px;padding:0 12px 0 10px;border-radius:999px;background:rgba(111,227,207,.1);border:1px solid rgba(111,227,207,.25);font:500 12px var(--mono);letter-spacing:.04em;text-transform:uppercase;color:var(--accent)}
+.badge i{width:7px;height:7px;border-radius:50%;background:currentColor;box-shadow:0 0 10px currentColor}
+h1{font-weight:600;font-size:clamp(40px, 7vw, 68px);line-height:.95;letter-spacing:-.05em;margin:22px 0 16px}
+.lead{color:var(--muted);font-size:17px;max-width:520px;margin:0 auto 36px}
+
+.files{display:grid;gap:14px;text-align:left}
+.file{display:grid;grid-template-columns:72px 1fr auto;gap:18px;align-items:center;padding:16px;border-radius:22px;background:var(--surface);border:1px solid var(--line);
+  opacity:0;transform:translateY(10px);animation:rise 500ms var(--ease-out) forwards;animation-delay:calc(var(--i, 0) * 90ms)}
+@keyframes rise{to{opacity:1;transform:none}}
+.file img{width:72px;aspect-ratio:3/4;object-fit:cover;border-radius:6px;box-shadow:0 10px 24px -10px rgba(0,0,0,.9)}
+.file h2{margin:0 0 2px;font-weight:600;font-size:18px;letter-spacing:-.02em;line-height:1.2}
+.btn{display:inline-flex;align-items:center;justify-content:center;gap:8px;height:44px;padding:0 18px;border-radius:999px;font-weight:600;font-size:14px;white-space:nowrap;text-decoration:none;background:var(--accent);color:var(--accent-ink);transition:transform 160ms var(--ease-out), box-shadow 250ms ease}
+.btn:active{transform:scale(.97)}
+@media (hover:hover) and (pointer:fine){ .btn:hover{box-shadow:0 0 30px 2px var(--glow)} }
+@media (max-width:520px){ .file{grid-template-columns:56px 1fr} .file img{width:56px} .file .btn{grid-column:1 / -1} }
+
+.state{padding:28px;border-radius:22px;background:var(--surface);border:1px solid var(--line);color:var(--muted);max-width:560px;margin:0 auto}
+.state.warn{border-color:rgba(255,199,102,.3);color:#E8DCC2}
+.spinner{width:22px;height:22px;border-radius:50%;border:2px solid rgba(111,227,207,.2);border-top-color:var(--accent);animation:spin 700ms linear infinite;margin:0 auto 12px}
+@keyframes spin{to{transform:rotate(1turn)}}
+.waiver{margin:18px 0 0;padding:14px 16px;border-radius:16px;border:1px solid var(--line);background:rgba(255,255,255,.03);font-size:13px;color:var(--muted);text-align:left}
+.hint{margin:26px auto 0;max-width:520px;font-size:14px;color:var(--faint)}
+@media (prefers-reduced-motion: reduce){ .file{animation:none;opacity:1;transform:none} .spinner{animation-duration:2s} }
+</style>
+</head>
+<body>
+<header class="nav">
+  <a class="back" href="index.html"><span aria-hidden="true">←</span><span data-i18n="t08">Volver al inicio</span></a>
+  <div class="lang" id="langHost"></div>
+</header>
+
+<main>
+  <span class="badge" data-i18n="t01"><i></i>Pago completado</span>
+  <h1 data-i18n="t02">¡Gracias por tu compra!</h1>
+  <p class="lead" data-i18n="t03">Aquí tienes tus guías. Puedes volver a esta página durante 30 días para descargarlas otra vez: guárdala en favoritos.</p>
+
+  <div id="result" aria-live="polite">
+    <div class="state"><div class="spinner" aria-hidden="true"></div><span data-i18n="t05">Preparando tu descarga…</span></div>
+  </div>
+  <p class="hint" data-i18n="t10">¿Algún problema? Escríbeme a <a href="mailto:nuriinwonderland@gmail.com">nuriinwonderland@gmail.com</a> con el correo de tu recibo.</p>
+</main>
+
+<script src="i18n/strings.js?v=202609280021"></script>
+<script src="i18n/runtime.js?v=202609280021"></script>
+<script>
+const SB_URL = 'https://ivnctyxjllacihehhjcb.supabase.co/functions/v1/guide-download';
+const SB_KEY = 'eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJzdXBhYmFzZSIsInJlZiI6Iml2bmN0eXhqbGxhY2loZWhoamNiIiwicm9sZSI6ImFub24iLCJpYXQiOjE3Nzc1NDk1NzMsImV4cCI6MjA5MzEyNTU3M30.Aju4q0fNQUhdc04xK-Ttm4U7GT1j9j6cG9PTc7VyoQ0';
+const GUIDES = {
+  scifi:{cover:'assets/img/guia-scifi-2026.jpg', title:'m100'},
+  fantasia:{cover:'assets/img/guia-fantasia-2026.jpg', title:'m105'}
+};
+const box = document.getElementById('result');
+let last = null;   // what to show, re-rendered when the language changes
+
+const render = () => {
+  if (!last) return;
+  if (last.files) {
+    box.innerHTML = '<div class="files">' + last.files.map((f, i) => `
+      <article class="file" style="--i:${i}">
+        <img src="${GUIDES[f.id].cover}" alt="">
+        <div><span class="mono">${NW.t('static.g05')}</span><h2>${NW.t('static.' + GUIDES[f.id].title)}</h2></div>
+        <a class="btn" href="${f.url}" download>${NW.t('static.t04')} <span aria-hidden="true">↓</span></a>
+      </article>`).join('') + '</div>' + (last.waiver ? `<p class="waiver">${NW.t('static.t11')}</p>` : '');
+  } else {
+    box.innerHTML = `<div class="state warn">${NW.t('static.' + last.msg)}</div>`;
+  }
+};
+const show = (state) => { last = state; render(); };
+
+NW.mount(document.getElementById('langHost'));
+NW.onChange(render);
+if (NW.lang !== 'es') NW.apply();
+
+const sessionId = new URLSearchParams(location.search).get('session_id');
+if (!sessionId) {
+  show({msg:'t07'});
+} else {
+  fetch(SB_URL, {method:'POST', headers:{apikey:SB_KEY, Authorization:'Bearer ' + SB_KEY, 'Content-Type':'application/json'}, body:JSON.stringify({session_id:sessionId})})
+    .then(r => r.json().then(d => ({ok:r.ok, d})))
+    .then(({ok, d}) => {
+      if (ok && d.files?.length) return show({files:d.files, waiver:d.waiver});
+      show({msg: d.error === 'expired' ? 't09' : 't06'});
+    })
+    .catch(() => show({msg:'t06'}));
+}
+</script>
+</body>
+</html>

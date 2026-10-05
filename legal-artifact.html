@@ -1,0 +1,317 @@
+<title>Aviso legal y privacidad</title>
+<meta name="description" content="Aviso legal, política de privacidad y política de cookies de Nuri In Wonderland.">
+<meta name="theme-color" content="#05070B">
+<link rel="preconnect" href="https://fonts.googleapis.com"><link rel="preconnect" href="https://fonts.gstatic.com" crossorigin><link href="https://fonts.googleapis.com/css2?family=Geist:wght@300;400;500;600;700&family=Geist+Mono:wght@400;500&family=Barlow+Condensed:wght@600;700;800&display=swap" rel="stylesheet">
+<style>
+:root{
+  --bg:#05070B;
+  --surface:rgba(16,20,28,.72);
+  --surface-2:#171C26;
+  --line:rgba(237,234,227,.08);
+  --line-strong:rgba(237,234,227,.16);
+  --text:#EFEDE8;
+  --body:#C9CCD2;
+  --muted:#9AA0AA;
+  --accent:#6FE3CF;
+  --accent-ink:#04201B;
+  --warn:#FFC766;
+  --sans:"Geist", system-ui, -apple-system, sans-serif;
+  --mono:"Geist Mono", ui-monospace, monospace;
+  --ease-out:cubic-bezier(0.23, 1, 0.32, 1);
+  --gutter:clamp(16px, 4vw, 40px);
+  color-scheme:dark;
+}
+*,*::before,*::after{box-sizing:border-box}
+html{scroll-behavior:smooth;-webkit-text-size-adjust:100%}
+body{margin:0;background:var(--bg);color:var(--text);font:400 16px/1.7 var(--sans);-webkit-font-smoothing:antialiased;-webkit-tap-highlight-color:transparent}
+body::before{content:"";position:fixed;inset:0;z-index:-1;pointer-events:none;background:radial-gradient(40% 35% at 85% 0%, rgba(111,227,207,.08), transparent 70%)}
+a{color:var(--accent);text-underline-offset:3px}
+button{font:inherit;color:inherit;background:none;border:0;cursor:pointer;padding:0}
+:focus-visible{outline:2px solid var(--accent);outline-offset:3px;border-radius:8px}
+.mono{font-family:var(--mono);font-size:12px;letter-spacing:.04em;text-transform:uppercase;color:var(--muted)}
+
+.nav{position:sticky;top:0;z-index:50;padding-top:env(safe-area-inset-top);background:rgba(5,7,11,.8);backdrop-filter:blur(14px);-webkit-backdrop-filter:blur(14px)}
+.nav-inner{max-width:1120px;margin:0 auto;padding:0 var(--gutter);display:flex;align-items:center;justify-content:space-between;gap:10px;height:64px}
+.back{display:inline-flex;align-items:center;gap:8px;height:38px;padding:0 14px 0 10px;border-radius:999px;border:1px solid var(--line);color:var(--muted);text-decoration:none;font-size:14px;font-weight:500;transition:color 150ms ease, border-color 150ms ease, transform 160ms var(--ease-out)}
+.back:active{transform:scale(.97)}
+@media (hover:hover) and (pointer:fine){ .back:hover{color:var(--text);border-color:var(--line-strong)} }
+.logo{font-weight:600;font-size:16px;letter-spacing:-.02em;color:var(--text);text-decoration:none}
+.logo b{color:var(--accent);font-weight:600}
+@media (max-width:520px){ .logo{display:none} }
+
+/* language picker (same as the other pages) */
+.lang{position:relative}
+.lang-btn{display:inline-flex;align-items:center;gap:6px;height:38px;padding:0 12px;border-radius:999px;border:1px solid var(--line-strong);font:500 12px var(--mono);letter-spacing:.04em;color:var(--muted);transition:color 150ms ease, border-color 150ms ease, transform 160ms var(--ease-out)}
+.lang-btn:active{transform:scale(.96)}
+@media (hover:hover) and (pointer:fine){ .lang-btn:hover{color:var(--text);border-color:var(--text)} }
+.lang.open .lang-btn{color:var(--text);border-color:var(--text)}
+.lang-menu{position:absolute;right:0;top:calc(100% + 8px);min-width:190px;padding:6px;border-radius:16px;background:rgba(14,18,26,.97);border:1px solid var(--line-strong);box-shadow:0 24px 50px -20px rgba(0,0,0,.9);transform-origin:top right;opacity:0;transform:scale(.96) translateY(-4px);visibility:hidden;pointer-events:none;transition:opacity 120ms ease, transform 120ms var(--ease-out), visibility 0s linear 120ms;z-index:60}
+.lang.open .lang-menu{opacity:1;transform:none;visibility:visible;pointer-events:auto;transition:opacity 180ms ease, transform 180ms var(--ease-out), visibility 0s}
+.lang-menu button{display:flex;align-items:center;gap:10px;width:100%;padding:9px 10px;border-radius:10px;font-size:14px;text-align:left;color:var(--text);transition:background-color 120ms ease}
+@media (hover:hover) and (pointer:fine){ .lang-menu button:hover{background:rgba(255,255,255,.06)} }
+.lang-menu .code{font:500 11px var(--mono);color:var(--muted);width:22px}
+.lang-menu .tick{margin-left:auto;color:var(--accent);opacity:0}
+.lang-menu [aria-checked="true"] .tick{opacity:1}
+.lang-menu [aria-checked="true"]{color:var(--accent)}
+
+.layout{max-width:1120px;margin:0 auto;padding:48px var(--gutter) 96px;display:grid;grid-template-columns:230px 1fr;gap:clamp(24px, 5vw, 72px)}
+@media (max-width:860px){ .layout{grid-template-columns:1fr;padding-top:28px} }
+.toc{position:sticky;top:88px;align-self:start;display:flex;flex-direction:column;gap:4px}
+@media (max-width:860px){ .toc{position:static;flex-direction:row;flex-wrap:wrap;gap:8px} }
+.toc a{display:block;padding:9px 14px;border-radius:12px;color:var(--muted);text-decoration:none;font-size:14px;font-weight:500;transition:background-color 150ms ease, color 150ms ease}
+@media (max-width:860px){ .toc a{border:1px solid var(--line);border-radius:999px} }
+@media (hover:hover) and (pointer:fine){ .toc a:hover{color:var(--text);background:rgba(255,255,255,.04)} }
+.toc a.active{color:var(--accent);background:rgba(111,227,207,.08)}
+
+h1{font-weight:600;font-size:clamp(36px, 5vw, 56px);line-height:1;letter-spacing:-.045em;margin:0 0 14px}
+.updated{margin:0 0 40px}
+article{scroll-margin-top:84px;padding:clamp(22px, 3.5vw, 40px);border-radius:24px;background:var(--surface);border:1px solid var(--line);margin-bottom:24px}
+article h2{font-weight:600;font-size:clamp(26px, 3vw, 34px);letter-spacing:-.035em;line-height:1.1;margin:0 0 24px}
+article h3{font-weight:600;font-size:18px;letter-spacing:-.015em;margin:32px 0 10px;color:var(--text)}
+article p,article li{color:var(--body);max-width:70ch}
+article p{margin:0 0 14px}
+article ul{margin:0 0 14px;padding-left:20px}
+article li{margin-bottom:6px}
+article strong{color:var(--text);font-weight:600}
+.facts{display:grid;grid-template-columns:repeat(2, minmax(0, 1fr));gap:10px;margin:0 0 8px}
+@media (max-width:560px){ .facts{grid-template-columns:1fr} }
+.facts div{padding:14px 16px;border-radius:14px;background:rgba(255,255,255,.03);border:1px solid var(--line)}
+.facts dt{font:500 11px var(--mono);letter-spacing:.04em;text-transform:uppercase;color:var(--muted)}
+.facts dd{margin:4px 0 0;font-weight:500;color:var(--text);overflow-wrap:anywhere}
+.pending{display:inline-flex;align-items:center;gap:6px;padding:2px 8px;border-radius:6px;background:rgba(255,199,102,.12);color:var(--warn);font-size:14px;font-weight:500}
+.table-wrap{overflow-x:auto;margin:6px 0 16px;border-radius:14px;border:1px solid var(--line)}
+table{width:100%;border-collapse:collapse;font-size:14px;min-width:560px}
+th,td{text-align:left;padding:12px 14px;vertical-align:top}
+th{font:500 11px var(--mono);letter-spacing:.04em;text-transform:uppercase;color:var(--muted);background:rgba(255,255,255,.03)}
+td{color:var(--body)}
+tr + tr td{border-top:1px solid var(--line)}
+td code{font-family:var(--mono);font-size:12.5px;color:var(--text);background:rgba(255,255,255,.05);padding:2px 6px;border-radius:6px;white-space:nowrap}
+.note{padding:14px 16px;border-radius:14px;background:rgba(111,227,207,.07);border:1px solid rgba(111,227,207,.18);color:var(--body)}
+footer{max-width:1120px;margin:0 auto;padding:0 var(--gutter) calc(40px + env(safe-area-inset-bottom));color:var(--muted);font-size:14px}
+@media (prefers-reduced-motion: reduce){ html{scroll-behavior:auto} }
+</style>
+<header class="nav">
+  <div class="nav-inner">
+    <a class="back" href="https://claude.ai/artifact/JAGxE69rdX8HPSszyezPEC" target="_blank" rel="noopener" data-i18n="l000"><span aria-hidden="true">←</span>Volver al inicio</a>
+    <a class="logo" href="https://claude.ai/artifact/JAGxE69rdX8HPSszyezPEC" target="_blank" rel="noopener" data-i18n="l001">Nuri in <b>Wonderland</b></a>
+    <div class="lang" id="langHost"></div>
+  </div>
+</header>
+
+<div class="layout">
+  <nav class="toc" aria-label="Secciones">
+    <a href="#aviso-legal" data-i18n="l002a">Aviso legal</a>
+    <a href="#privacidad" data-i18n="l002b">Política de privacidad</a>
+    <a href="#venta" data-i18n="l002d">Condiciones de venta</a>
+    <a href="#cookies" data-i18n="l002c">Política de cookies</a>
+  </nav>
+
+  <main>
+    <h1 data-i18n="l003">Información legal</h1>
+    <p class="mono updated" data-i18n="l004">Última actualización: septiembre de 2026</p>
+
+    <!-- ============ AVISO LEGAL ============ -->
+    <article id="aviso-legal">
+      <h2 data-i18n="l005">Aviso legal</h2>
+      <h3 data-i18n="l006">Titularidad del sitio</h3>
+      <p data-i18n="l007">En cumplimiento de la Ley 34/2002, de servicios de la sociedad de la información y de comercio electrónico (LSSI), se informa de los siguientes datos identificativos:</p>
+      <dl class="facts">
+        <div><dt data-i18n="l008">Titular</dt><dd data-i18n="l009">Nuria Blanco Nevado</dd></div>
+        <div><dt data-i18n="l010">Nombre comercial</dt><dd data-i18n="l011">Nuri in Wonderland</dd></div>
+        <div><dt data-i18n="l012">Sitio web</dt><dd data-i18n="l013">www.nuriinwonderland.com</dd></div>
+        <div><dt data-i18n="l014">NIF</dt><dd data-i18n="l015">47666730N</dd></div>
+        <div><dt data-i18n="l016">Correo electrónico</dt><dd data-i18n="l017"><a href="mailto:nuriinwonderland@gmail.com">nuriinwonderland@gmail.com</a></dd></div>
+        <div><dt data-i18n="l018">Domicilio</dt><dd data-i18n="l019">Domicilio personal de la creadora, Barcelona, España.</dd></div>
+      </dl>
+
+      <h3 data-i18n="l020">Objeto del sitio web</h3>
+      <p data-i18n="l021">Nuri in Wonderland es un sitio web de carácter informativo y promocional dedicado principalmente a contenidos relacionados con ciencia ficción, fantasía, literatura y los proyectos de su titular.</p>
+      <p data-i18n="l022">El acceso a este sitio web implica la aceptación de las condiciones recogidas en este Aviso Legal.</p>
+
+      <h3 data-i18n="l023">Propiedad intelectual e industrial</h3>
+      <p data-i18n="l024">Salvo que se indique lo contrario, los textos, diseños, elementos gráficos, logotipos y demás contenidos originales de esta web pertenecen a su titular o se utilizan con la correspondiente autorización y están protegidos por la normativa de propiedad intelectual e industrial.</p>
+      <p data-i18n="l025">No se permite su reproducción, distribución, transformación o utilización con fines comerciales sin autorización previa, salvo en los casos permitidos por la legislación vigente.</p>
+      <p data-i18n="l026">Las marcas, imágenes, logotipos y demás contenidos pertenecientes a terceros siguen siendo propiedad de sus respectivos titulares.</p>
+
+      <h3 data-i18n="l027">Enlaces y servicios de terceros</h3>
+      <p data-i18n="l028">Este sitio contiene enlaces a servicios y plataformas externas: Amazon, Etsy, Kit, Stripe, YouTube, Skool, Ko-fi y Canva.</p>
+      <p data-i18n="l029">Las guías de lectura en PDF se venden directamente en esta web y el pago se procesa mediante Stripe, según las <a href="#venta">condiciones de venta</a>. Los libros y el resto de productos enlazados no se compran en nuriinwonderland.com: cuando el usuario accede a Amazon o Etsy para realizar una compra, la operación se realiza en la plataforma correspondiente y queda sujeta a sus propias condiciones de contratación, privacidad y uso.</p>
+      <p data-i18n="l030">Del mismo modo, determinados enlaces dirigen a formularios externos gestionados con Kit para que el usuario pueda suscribirse voluntariamente a determinadas comunicaciones.</p>
+      <p data-i18n="l031">Nuri in Wonderland no controla las políticas, contenidos o prácticas de privacidad de dichas plataformas externas.</p>
+
+      <h3 data-i18n="l032">YouTube</h3>
+      <p data-i18n="l033">Este sitio utiliza los Servicios de la API de YouTube para mostrar información pública sobre los vídeos del canal Nuri in Wonderland y facilitar el acceso a dichos vídeos. Al utilizar las funcionalidades relacionadas con YouTube de esta web, aceptas quedar sujeto a las <a href="https://www.youtube.com/t/terms" target="_blank" rel="noopener">Condiciones del Servicio de YouTube</a>.</p>
+
+      <h3 data-i18n="l034">Responsabilidad</h3>
+      <p data-i18n="l035">Se procura que la información publicada en esta web sea correcta y esté actualizada, pero no se garantiza que esté permanentemente libre de errores, interrupciones o contenidos desactualizados.</p>
+      <p data-i18n="l036">La titular no se responsabiliza de problemas derivados del funcionamiento de servicios o páginas externas enlazados desde este sitio.</p>
+
+      <h3 data-i18n="l037">Legislación aplicable</h3>
+      <p data-i18n="l038">Este sitio web se rige por la legislación española y por la normativa de la Unión Europea que resulte aplicable.</p>
+    </article>
+
+    <!-- ============ PRIVACIDAD ============ -->
+    <article id="privacidad">
+      <h2 data-i18n="l039">Política de privacidad</h2>
+      <h3 data-i18n="l040">Responsable del tratamiento</h3>
+      <dl class="facts">
+        <div><dt data-i18n="l041">Responsable</dt><dd data-i18n="l042">Nuria Blanco Nevado</dd></div>
+        <div><dt data-i18n="l043">Nombre comercial</dt><dd data-i18n="l044">Nuri in Wonderland</dd></div>
+        <div><dt data-i18n="l045">NIF</dt><dd data-i18n="l046">47666730N</dd></div>
+        <div><dt data-i18n="l047">Correo electrónico de contacto</dt><dd data-i18n="l048"><a href="mailto:nuriinwonderland@gmail.com">nuriinwonderland@gmail.com</a></dd></div>
+      </dl>
+
+      <h3 data-i18n="l049">Qué datos personales se recogen</h3>
+      <p data-i18n="l050">Nuriinwonderland.com no dispone de formularios propios mediante los que el visitante facilite directamente datos personales ni permite crear cuentas de usuario. Las compras de las guías se realizan en la página de pago de Stripe.</p>
+      <p data-i18n="l051">No obstante, la web contiene enlaces a formularios externos gestionados mediante Kit que permiten a los usuarios proporcionar voluntariamente su dirección de correo electrónico para:</p>
+      <ul>
+        <li data-i18n="l052">recibir el aviso de disponibilidad de la edición en papel de Coral Red 402;</li>
+        <li data-i18n="l053">suscribirse a la newsletter;</li>
+        <li data-i18n="l054">recibir aquellas otras comunicaciones para las que hayan prestado expresamente su consentimiento.</li>
+      </ul>
+      <p data-i18n="l055">Los datos solicitados y la finalidad concreta del tratamiento se indican en el propio formulario de suscripción.</p>
+
+      <h3 data-i18n="l056">Finalidad y base jurídica</h3>
+      <p data-i18n="l057">Cuando una persona se suscribe voluntariamente mediante un formulario de Kit, sus datos se utilizan para gestionar su suscripción y enviarle las comunicaciones para las que haya prestado consentimiento.</p>
+      <p data-i18n="l058">La base jurídica para este tratamiento es el consentimiento del interesado (art. 6.1.a del RGPD).</p>
+      <p data-i18n="l059">El usuario puede retirar su consentimiento y darse de baja en cualquier momento mediante el enlace incluido en los correos electrónicos o escribiendo a nuriinwonderland@gmail.com. La retirada del consentimiento no afecta a la licitud del tratamiento realizado con anterioridad.</p>
+
+      <h3 data-i18n="l060">Kit</h3>
+      <p data-i18n="l061">Para gestionar las suscripciones y el envío de correos electrónicos se utiliza Kit (kit.com) como proveedor de email marketing y encargado del tratamiento. Al utilizar sus formularios, los datos proporcionados se tratan mediante su infraestructura para gestionar la suscripción y los correspondientes envíos.</p>
+      <p data-i18n="l062">Kit tiene su sede en Estados Unidos, por lo que los datos pueden transferirse fuera del Espacio Económico Europeo. Estas transferencias se amparan en el Marco de Privacidad de Datos UE-EE. UU. (<em>EU-U.S. Data Privacy Framework</em>) y/o las cláusulas contractuales tipo aprobadas por la Comisión Europea, incorporadas en el acuerdo de tratamiento de datos de Kit.</p>
+      <p data-i18n="l063">Los datos personales de los suscriptores no se venden a terceros.</p>
+
+      <h3 data-i18n="p01">Compras y pagos</h3>
+      <p data-i18n="p02">Cuando compras una guía, el pago se realiza en la página segura de Stripe. Stripe recoge los datos necesarios para la compra: nombre, correo electrónico, país y datos del medio de pago. Nuri in Wonderland no tiene acceso a los datos completos de tu tarjeta.</p>
+      <p data-i18n="p03">Estos datos se utilizan para procesar el pago, entregarte los archivos comprados, enviarte el recibo, atender posibles incidencias y cumplir las obligaciones fiscales y contables. La base jurídica es la ejecución del contrato de compra (art. 6.1.b del RGPD) y el cumplimiento de obligaciones legales (art. 6.1.c del RGPD).</p>
+      <p data-i18n="p04">Para verificar el pago y generar el enlace de descarga, la web consulta tu compra en Stripe a través de una función alojada en Supabase. Esta función no utiliza Supabase para almacenar de forma persistente los datos de la compra; no obstante, Supabase puede tratar los datos técnicos necesarios para ejecutar la solicitud.</p>
+      <p data-i18n="p05">Stripe actúa como proveedor de servicios de pago. Los datos pueden transferirse a Stripe, Inc., en Estados Unidos; estas transferencias se amparan en el Marco de Privacidad de Datos UE-EE. UU. (<em>EU-U.S. Data Privacy Framework</em>) y/o las cláusulas contractuales tipo aprobadas por la Comisión Europea, incorporadas en los acuerdos de Stripe. Puedes consultar su <a href="https://stripe.com/es/privacy" target="_blank" rel="noopener">política de privacidad</a>.</p>
+      <p data-i18n="p06">Los datos de las compras se conservan durante los plazos exigidos por la normativa fiscal y mercantil (hasta 6 años).</p>
+
+      <h3 data-i18n="l064">Alojamiento, datos técnicos y proveedores</h3>
+      <p data-i18n="l065">Al visitar cualquier sitio web es necesario transmitir determinados datos técnicos para establecer la conexión y servir el contenido, como la dirección IP, información del navegador, fecha y hora de la solicitud y otros datos técnicos similares.</p>
+      <p data-i18n="l066">Estos datos pueden ser tratados por los siguientes proveedores tecnológicos, únicamente en la medida necesaria para prestar sus servicios, mantener la seguridad y prevenir abusos:</p>
+      <ul>
+        <li data-i18n="l067"><strong>Netlify</strong>, proveedor de alojamiento web, que sirve las páginas del sitio.</li>
+        <li data-i18n="l068"><strong>Supabase</strong>, que aloja las funciones que muestran los últimos vídeos del canal y el seguimiento de proyectos, y la que verifica las compras (ver el apartado «Supabase»).</li>
+        <li data-i18n="l069"><strong>Google (YouTube)</strong>, desde cuyos servidores se cargan las miniaturas de los vídeos.</li>
+      </ul>
+      <p data-i18n="l070">Nuri in Wonderland no utiliza estos datos para crear perfiles de los visitantes ni con fines publicitarios.</p>
+      <p data-i18n="l070b">La base jurídica de estos tratamientos es el interés legítimo de la titular (art. 6.1.f del RGPD) en garantizar el funcionamiento, la seguridad y la integridad técnica del sitio web y en mostrar los contenidos que el visitante solicita. Cada proveedor conserva estos datos técnicos solo durante el tiempo necesario para esos fines, según sus propias políticas.</p>
+      <p data-i18n="l070c">Algunos de estos proveedores, como Netlify y Google, tienen su sede en Estados Unidos. En esos casos, las transferencias internacionales se amparan en el Marco de Privacidad de Datos UE-EE. UU. (<em>EU-U.S. Data Privacy Framework</em>) y/o las cláusulas contractuales tipo aprobadas por la Comisión Europea.</p>
+
+      <h3 data-i18n="s01">Supabase</h3>
+      <p data-i18n="s02">Esta web utiliza Supabase como proveedor de infraestructura para ejecutar determinadas funciones del sitio, como la consulta de los últimos vídeos publicados y el seguimiento de proyectos, así como para verificar determinadas compras realizadas mediante Stripe.</p>
+      <p data-i18n="s03">Al realizar estas solicitudes, Supabase puede tratar datos técnicos necesarios para prestar el servicio, como la dirección IP, información del navegador, fecha y hora de la solicitud y otros datos técnicos similares.</p>
+      <p data-i18n="s04">Supabase actúa, cuando corresponde, como encargado del tratamiento por cuenta de Nuri in Wonderland. Los datos se tratan de acuerdo con las condiciones y garantías de protección de datos ofrecidas por Supabase.</p>
+      <p data-i18n="s05">La función utilizada para verificar los pagos no almacena de forma persistente en la base de datos de Supabase los datos personales de la compra, sin perjuicio del tratamiento técnico y de los registros necesarios para la prestación, seguridad y funcionamiento del servicio.</p>
+      <p data-i18n="s06">Puedes consultar la política de privacidad de Supabase en <a href="https://supabase.com/privacy" target="_blank" rel="noopener">https://supabase.com/privacy</a>.</p>
+
+      <h3 data-i18n="l071">YouTube API</h3>
+      <p data-i18n="l072">Esta web utiliza los Servicios de la API de YouTube para obtener y mostrar información pública sobre los vídeos del canal Nuri in Wonderland, como títulos, miniaturas y enlaces. Esta integración se utiliza para mostrar contenidos públicos del canal y no para acceder a la cuenta de YouTube del visitante.</p>
+      <p data-i18n="l073">El uso de los Servicios de la API de YouTube está sujeto a las políticas de Google y YouTube. Puedes consultar la <a href="https://policies.google.com/privacy" target="_blank" rel="noopener">Política de Privacidad de Google</a> para obtener más información sobre el tratamiento de datos realizado por Google.</p>
+
+      <h3 data-i18n="l074">Enlaces a terceros</h3>
+      <p data-i18n="l075">Esta web contiene enlaces a servicios externos como Amazon, Etsy, Kit, YouTube, Skool, Ko-fi y Canva. Cuando el usuario accede voluntariamente a uno de estos servicios, abandona nuriinwonderland.com y el tratamiento de datos realizado por la plataforma de destino queda sujeto a sus propias políticas de privacidad.</p>
+
+      <h3 data-i18n="l076">Conservación de los datos</h3>
+      <p data-i18n="l077">Los datos de los suscriptores de correo electrónico se conservarán mientras la suscripción permanezca activa o hasta que el interesado retire su consentimiento o solicite su supresión, sin perjuicio de los datos que deban conservarse durante los plazos exigidos legalmente.</p>
+
+      <h3 data-i18n="l078">Derechos de los usuarios</h3>
+      <p data-i18n="l079">Las personas interesadas pueden ejercer, cuando corresponda, sus derechos de acceso, rectificación, supresión, oposición, limitación del tratamiento y portabilidad, así como retirar el consentimiento prestado, escribiendo a <a href="mailto:nuriinwonderland@gmail.com">nuriinwonderland@gmail.com</a>.</p>
+      <p data-i18n="l080">También tienen derecho a presentar una reclamación ante la <a href="https://www.aepd.es" target="_blank" rel="noopener">Agencia Española de Protección de Datos (AEPD)</a> si consideran que el tratamiento de sus datos personales vulnera la normativa aplicable.</p>
+
+      <h3 data-i18n="l081">Modificaciones</h3>
+      <p data-i18n="l082">Esta Política de Privacidad podrá actualizarse cuando cambien los servicios utilizados por la web, sus funcionalidades o las obligaciones legales aplicables.</p>
+    </article>
+
+    <!-- ============ CONDICIONES DE VENTA ============ -->
+    <article id="venta">
+      <h2 data-i18n="v01">Condiciones de venta</h2>
+      <p data-i18n="v02">Estas condiciones regulan la compra de productos digitales directamente en nuriinwonderland.com. Al realizar una compra, aceptas estas condiciones.</p>
+
+      <h3 data-i18n="v03">Vendedora</h3>
+      <p data-i18n="v04">Nuria Blanco Nevado (Nuri in Wonderland), NIF 47666730N, correo electrónico <a href="mailto:nuriinwonderland@gmail.com">nuriinwonderland@gmail.com</a>.</p>
+
+      <h3 data-i18n="v05">Productos y precios</h3>
+      <ul>
+        <li data-i18n="v06">Guía digital de Recomendaciones de Ciencia Ficción · Edición 2026 (PDF): 2,99 €.</li>
+        <li data-i18n="v07">Guía digital de Recomendaciones de Fantasía · Edición 2026 (PDF): 2,99 €.</li>
+        <li data-i18n="v08">Pack con las dos guías (PDF): 5 €.</li>
+      </ul>
+      <p data-i18n="v09">Los precios son finales e incluyen el IVA español.</p>
+
+      <h3 data-i18n="v21">Características técnicas</h3>
+      <p data-i18n="v22">Formato: PDF. Para abrirlo necesitas un dispositivo (ordenador, tableta, móvil o lector electrónico compatible) y una aplicación que lea archivos PDF. El archivo no incorpora DRM ni otras medidas técnicas que limiten su uso en tus dispositivos.</p>
+
+      <h3 data-i18n="v10">Pago</h3>
+      <p data-i18n="v11">El pago se realiza a través de Stripe con los medios de pago que se muestran en la página de pago. Al completar la compra recibirás un recibo por correo electrónico.</p>
+
+      <h3 data-i18n="v12">Entrega</h3>
+      <p data-i18n="v13">La entrega es inmediata: al completar el pago se abre una página desde la que puedes descargar los PDF comprados. Esa página funciona durante 30 días. Si tienes cualquier problema con la descarga, escríbeme a <a href="mailto:nuriinwonderland@gmail.com">nuriinwonderland@gmail.com</a> y te enviaré los archivos por correo electrónico.</p>
+
+      <h3 data-i18n="v14">Derecho de desistimiento</h3>
+      <p data-i18n="v15">Por tratarse de contenido digital que no se suministra en un soporte material, no podrás ejercer el derecho de desistimiento una vez que haya comenzado el suministro, siempre que antes de ello hayas dado tu consentimiento expreso y hayas reconocido que, en consecuencia, pierdes ese derecho (artículo 103.m) del Real Decreto Legislativo 1/2007, Ley General para la Defensa de los Consumidores y Usuarios).</p>
+      <p data-i18n="v15b">Para ello, en la página de pago deberás marcar una casilla obligatoria con este texto: «Solicito que el suministro del contenido digital comience inmediatamente y reconozco que, una vez iniciada la descarga, perderé mi derecho de desistimiento.» Esta aceptación queda reflejada en la confirmación de compra que recibirás por correo electrónico y en la página de descarga.</p>
+      <p data-i18n="v16">Los contenidos digitales están sujetos a la garantía legal de conformidad prevista en la normativa de consumidores y usuarios. Al tratarse de contenido digital suministrado en un único acto, respondo de las faltas de conformidad que se manifiesten en un plazo de dos años desde el suministro. Si el archivo está dañado, no se corresponde con lo comprado o no has podido descargarlo, escríbeme y lo solucionaré o te devolveré el importe.</p>
+
+      <h3 data-i18n="v17">Uso de los archivos</h3>
+      <p data-i18n="v18">Las guías son para uso personal. No está permitido revenderlas, redistribuirlas ni publicarlas, total o parcialmente, sin autorización. Su contenido está protegido por la normativa de propiedad intelectual.</p>
+
+      <h3 data-i18n="v19">Reclamaciones y legislación aplicable</h3>
+      <p data-i18n="v20">Para cualquier duda o reclamación puedes escribir a <a href="mailto:nuriinwonderland@gmail.com">nuriinwonderland@gmail.com</a>. Estas condiciones se rigen por la legislación española, sin perjuicio de los derechos que te reconozca la normativa de consumo de tu país de residencia.</p>
+    </article>
+
+    <!-- ============ COOKIES ============ -->
+    <article id="cookies">
+      <h2 data-i18n="l083">Política de cookies</h2>
+      <h3 data-i18n="l084">Cookies</h3>
+      <p data-i18n="l085">Según las comprobaciones técnicas realizadas sobre la web publicada en septiembre de 2026, nuriinwonderland.com no instala cookies propias ni de terceros en tu navegador y no utiliza herramientas de analítica, publicidad ni seguimiento. Por eso no verás ningún aviso para aceptarlas.</p>
+
+      <h3 data-i18n="l086">Almacenamiento local del navegador</h3>
+      <p data-i18n="l087">La normativa sobre cookies (art. 22.2 de la LSSI) se aplica también a otras tecnologías que guardan o leen información en tu dispositivo, como el almacenamiento local del navegador (<em>localStorage</em>). Esta web guarda en él unos pocos datos, que se quedan en tu dispositivo, no se envían a ningún servidor y no sirven para identificarte:</p>
+      <div class="table-wrap">
+        <table>
+          <thead><tr><th data-i18n="l088">Nombre</th><th data-i18n="l089">Para qué sirve</th><th data-i18n="l090">Duración</th></tr></thead>
+          <tbody>
+            <tr><td data-i18n="l091"><code>nw:lang</code></td><td data-i18n="l092">Recordar el idioma que has elegido.</td><td data-i18n="l093">Hasta que lo borres</td></tr>
+            <tr><td data-i18n="l097"><code>nw:get-latest-videos</code></td><td data-i18n="l098">Guardar una copia de los últimos vídeos del canal para mostrarlos si falla la conexión.</td><td data-i18n="l099">Se actualiza en cada visita</td></tr>
+            <tr><td data-i18n="l100"><code>nw:get-progress</code></td><td data-i18n="l101">Guardar una copia del seguimiento de proyectos para mostrarlo si falla la conexión.</td><td data-i18n="l102">Se actualiza en cada visita</td></tr>
+          </tbody>
+        </table>
+      </div>
+      <p data-i18n="l103"><code>nw:lang</code> guarda una preferencia de interfaz que eliges tú (el idioma), por lo que es necesario para prestar la funcionalidad que solicitas y está exento de consentimiento. Los otros dos son copias temporales de contenido público (vídeos y proyectos) que permiten mostrar esa información si falla la conexión; no contienen datos personales ni se utilizan para seguimiento. Si bloqueas el almacenamiento de datos de este sitio en tu navegador, la web seguirá funcionando.</p>
+
+      <h3 data-i18n="l104">Cómo eliminarlos</h3>
+      <p data-i18n="l105">Puedes borrarlos en cualquier momento desde la configuración de tu navegador, eliminando los datos del sitio nuriinwonderland.com. Si lo haces, la web volverá a mostrarse en el idioma de tu navegador.</p>
+
+      <h3 data-i18n="l106">Servicios de terceros</h3>
+      <p data-i18n="l107">Cuando haces clic en un enlace externo (por ejemplo, YouTube, Amazon, Etsy, Kit o Skool), abandonas esta web y esas plataformas pueden utilizar sus propias cookies según sus políticas. La página de pago de Stripe utiliza cookies necesarias para procesar el pago y prevenir el fraude. Las miniaturas de los vídeos se cargan desde los servidores de Google. La infraestructura de Supabase (Cloudflare) puede enviar una cookie técnica de seguridad (<code>__cf_bm</code>) para detectar tráfico automatizado; como la web hace esas consultas sin credenciales, tu navegador no la guarda.</p>
+      <p class="note" data-i18n="l108">Si en el futuro se añaden herramientas de analítica, vídeos incrustados u otros servicios que utilicen cookies, esta política se actualizará y se pedirá tu consentimiento antes de usarlas.</p>
+    </article>
+  </main>
+</div>
+
+<footer><p data-i18n="l109">© 2026 Nuri In Wonderland</p></footer>
+
+<script src="i18n/strings.js"></script>
+<script src="i18n/runtime.js"></script>
+<script>
+const reduce = matchMedia('(prefers-reduced-motion: reduce)').matches;
+NW.mount(document.getElementById('langHost'));
+if (NW.lang !== 'es') NW.apply();
+
+// Anchor links scroll in JS so they also work inside embedded viewers
+document.addEventListener('click', e => {
+  const a = e.target.closest('a[href^="#"]'); if (!a) return;
+  const el = document.getElementById(a.getAttribute('href').slice(1)); if (!el) return;
+  e.preventDefault(); el.scrollIntoView({behavior: reduce ? 'auto' : 'smooth', block:'start'});
+});
+// Highlight the section being read
+const links = [...document.querySelectorAll('.toc a')];
+const io = new IntersectionObserver(entries => entries.forEach(en => {
+  if (en.isIntersecting) links.forEach(l => l.classList.toggle('active', l.getAttribute('href') === '#' + en.target.id));
+}), {rootMargin:'-30% 0px -60% 0px'});
+document.querySelectorAll('article[id]').forEach(a => io.observe(a));
+if (location.hash) { const el = document.getElementById(location.hash.slice(1)); if (el) el.scrollIntoView(); }
+</script>

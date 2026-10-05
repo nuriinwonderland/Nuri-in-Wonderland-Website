@@ -1,0 +1,516 @@
+{
+ "static": {
+  "m000": "<span class=\"logo-mark\" aria-hidden=\"true\"></span><span>Nuri in <b>Wonderland</b></span>",
+  "m001": "Bücher",
+  "m002": "Kanal",
+  "m003": "Spiel",
+  "m004": "Shop",
+  "m005": "Guides",
+  "m006": "Community",
+  "m007": "Abonnieren",
+  "m008": "Bücher <span class=\"arrow\">→</span>",
+  "m009": "YouTube-Kanal <span class=\"arrow\">→</span>",
+  "m010": "Woran ich arbeite <span class=\"arrow\">→</span>",
+  "m011": "Kartenspiel <span class=\"arrow\">→</span>",
+  "m012": "Shop <span class=\"arrow\">→</span>",
+  "m013": "Kostenlose Guides <span class=\"arrow\">→</span>",
+  "m014": "Community <span class=\"arrow\">→</span>",
+  "m015": "Kanal abonnieren",
+  "m016": "<span class=\"pulse\"></span>Coral Red 402 jetzt im Vorverkauf<span class=\"arrow\" aria-hidden=\"true\">→</span>",
+  "m017": "<span class=\"line\">Nuri in</span><span class=\"line hl\">Wonderland</span>",
+  "m018": "Ausgebildete Biomedizinerin und <strong>Autorin von Science-Fiction und Fantasy</strong>. Ich erschaffe Welten, in denen die Sonne nicht mehr aufgeht, und spreche mit <strong data-subs-short>39k</strong> Menschen auf YouTube über Bücher.",
+  "m019": "Entdecke meine Welten <span class=\"arrow\" aria-hidden=\"true\">→</span>",
+  "m020": "Zum Kanal",
+  "m021": "Abonnenten",
+  "m022": "Videos",
+  "m023": "<b>5</b><span>Romane</span>",
+  "m024": "Entdecken<i></i>",
+  "m025": "<span>Science-Fiction</span><span>Fantasy</span><span>Dystopie</span><span>Neurowissenschaft</span><span>Unmögliche Welten</span><span>Asimov</span><span>Cyberpunk</span><span>Dilemmas</span>\n    <span>Science-Fiction</span><span>Fantasy</span><span>Dystopie</span><span>Neurowissenschaft</span><span>Unmögliche Welten</span><span>Asimov</span><span>Cyberpunk</span><span>Dilemmas</span>",
+  "m026": "<i></i>Über mich",
+  "m027": "Ich bin <span class=\"hl\">Nuria Blanco</span>, ausgebildete Biomedizinerin, Autorin von Science-Fiction und Fantasy <span class=\"dim\">und Content-Creatorin auf YouTube als</span> Nuri In Wonderland.",
+  "m028": "<strong>Wissenschaftlerin im Kopf, Autorin im Herzen.</strong> Ich erschaffe Welten, in denen die Sonne nicht mehr aufgeht, Wesen, die sich von Träumen ernähren, und biotechnologische Geheimnisse, die das Wesen der Erinnerung hinterfragen. Wenn ich nicht schreibe, spreche ich auf meinem Kanal über Bücher, SF und Kreativität.",
+  "m029": "<span class=\"mono\">Ausbildung</span><b>Biomedizin</b>",
+  "m030": "<span class=\"mono\">Ich schreibe</span><b>Sci-Fi und Fantasy</b>",
+  "m031": "<span class=\"badge\">VORVERKAUF</span><span class=\"tag\">Thriller</span><span class=\"tag\">Neurowissenschaft</span>",
+  "m032": "Coral Red <span style=\"color:var(--coral)\">402</span>",
+  "m033": "Jetzt im Vorverkauf · Print am 27/09/2026",
+  "m034": "Sarah Deslauriers, Forscherin bei NeuralDynamics, wacht mit einer Wunde an der Schläfe und sieben Monaten Gedächtnislücke auf der Straße auf. Die Ärzte finden keine Verletzung, die das erklären würde. Ihre Familie, die sie für tot gehalten hatte, hat auch keine Antworten. Und als sie an ihren Arbeitsplatz zurückkehrt, erfährt sie, dass NeuralDynamics während ihrer Abwesenheit eine Technologie zum Löschen von Erinnerungen auf den Markt gebracht hat.",
+  "m035": "Jetzt vorbestellen <span class=\"arrow\" aria-hidden=\"true\">→</span>",
+  "m036": "Inhalt lesen",
+  "m037": "<i></i>Bibliothek",
+  "m038": "Meine <span class=\"hl\">Welten</span>",
+  "m039": "Fantasy, Science-Fiction und was mir sonst einfällt. Tippe auf ein Buch, um den Inhalt zu lesen.",
+  "m040": "<span class=\"eq\" aria-hidden=\"true\"><i></i><i></i><i></i><i></i></span>Hörbücher · schon bald",
+  "m041": "<i></i>YouTube",
+  "m042": "Aus dem <span class=\"hl\">Kanal</span>",
+  "m043": "Rezensionen, Analysen und Gespräche über Science-Fiction, Fantasy und den kreativen Prozess hinter meinen Romanen.",
+  "m044": "Mehr Videos",
+  "m045": "Abonnenten",
+  "m046": "Videos",
+  "m047": "Kostenlos abonnieren <span class=\"arrow\" aria-hidden=\"true\">→</span>",
+  "m048": "<i></i>Missionskontrolle",
+  "m049": "Woran <span class=\"hl\">arbeite ich?</span>",
+  "m050": "Der echte Fortschritt meiner Videos und Bücher, direkt verbunden mit meiner Planung.",
+  "m052": "In Produktion",
+  "m053": "Videos",
+  "m054": "Im Ofen",
+  "m055": "Bücher",
+  "m056": "<i></i>Demnächst",
+  "m057": "Kartenspiel",
+  "m058": "<b>Und du, was würdest du tun?</b> Dilemmas, mit denen du nicht gerechnet hast",
+  "m059": "Ich hatte schon immer ein Problem: Ich liebe Science-Fiction … aber nur sehr wenige meiner Freunde teilen diese Leidenschaft. Deshalb habe ich ein Kartenspiel entwickelt, mit <strong>Fragen, die Diskussionen anstoßen sollen</strong> – über mögliche Zukünfte, KI mit Bewusstsein, Zeitreisen oder Kolonien auf anderen Welten, inspiriert von Büchern, Filmen und Serien.",
+  "m060": "<b>5</b><span>Themen</span>",
+  "m061": "<b>+80</b><span>Dilemmas</span>",
+  "m062": "<b>7</b><span>Sonderkarten</span>",
+  "m063": "<b>63×88</b><span>mm pro Karte</span>",
+  "m064": "Sag mir Bescheid, wenn es verfügbar ist <span class=\"arrow\" aria-hidden=\"true\">→</span>",
+  "m065": "<i></i>Probier es aus",
+  "m066": "Zieh eine Karte",
+  "m067": "Wähle einen Stapel, dreh die Karte um und lies das Dilemma laut vor. Was würdest du tun?",
+  "m068": "Umdrehen <span class=\"arrow\" aria-hidden=\"true\">↻</span>",
+  "m069": "Tippe auf die Karte, um sie umzudrehen",
+  "m070": "<i></i>Gamification",
+  "m071": "Sonderkarten",
+  "m072": "Sie enthalten keine Fragen. Sie werden in bestimmten Momenten gespielt, um die Runde zu verändern, andere Spieler zu sabotieren oder dir einen Vorteil zu verschaffen.",
+  "m073": "<i></i>Auf jeder Karte",
+  "m074": "Rettungsring",
+  "m075": "Du weißt nicht, was du antworten sollst? Jede Karte hat eine Aufgabe, die dich rettet … im Tausch gegen deine Würde.",
+  "m076": "Willst du zu den Ersten gehören, die es spielen?",
+  "m077": "Ich sage dir Bescheid, sobald das Deck verfügbar ist.",
+  "m078": "Sag mir Bescheid, wenn es verfügbar ist <span class=\"arrow\" aria-hidden=\"true\">→</span>",
+  "m079": "<i></i>Shop",
+  "m080": "Dinge, <span class=\"hl\">von mir gestaltet</span>",
+  "m081": "Designs für echte SF-Fans.",
+  "m082": "Tasse „Ich brauche Raum“",
+  "m083": "Für die Momente, in denen du deinen Raum brauchst … und deinen Kaffee.",
+  "m084": "Europa",
+  "m085": "USA",
+  "m086": "Tasse „Mehr Kaffee mit Science-Fiction“",
+  "m087": "Der perfekte Begleiter für deine Lieblingsromane.",
+  "m088": "Europa",
+  "m089": "USA",
+  "m090": "Weltraum-Handyhülle",
+  "m091": "Ruf mich an, wenn die Realität Sinn ergibt.",
+  "m092": "Auf Etsy kaufen",
+  "m093": "Sci-Fi Nerd Sticker",
+  "m094": "Für Laptop, Flasche oder wo immer du deine Nerd-Seite zeigen willst.",
+  "m095": "Auf Etsy kaufen",
+  "m096": "<i></i>Kostenlose Downloads",
+  "m097": "Du weißt nicht, <span class=\"hl\">was du lesen sollst?</span>",
+  "m098": "Abonniere kostenlos meinen Newsletter – wenn du danach hierher zurückkommst, kannst du die Guides als PDF herunterladen.",
+  "m099": "PDF · Kostenlos",
+  "m100": "Digitaler Guide mit Science-Fiction-Empfehlungen",
+  "m101": "Die besten Bücher des Genres in einem umfassenden Guide.",
+  "m102": "Guide holen <span class=\"arrow\" aria-hidden=\"true\">→</span>",
+  "m103": "PDF herunterladen <span aria-hidden=\"true\">↓</span>",
+  "m104": "PDF · Kostenlos",
+  "m105": "Digitaler Guide mit Fantasy-Empfehlungen",
+  "m106": "Finde dein nächstes Fantasy-Abenteuer.",
+  "m107": "Guide holen <span class=\"arrow\" aria-hidden=\"true\">→</span>",
+  "m108": "PDF herunterladen <span aria-hidden=\"true\">↓</span>",
+  "m109": "Downloads freischalten",
+  "m110": "<i></i>Community",
+  "m111": "Tritt der Community von <span class=\"hl\">Somos Nerds</span> bei",
+  "m112": "Vernetze dich mit anderen Lesern, die Science-Fiction und Fantasy lieben.",
+  "m113": "<i></i>Skool",
+  "m114": "Somos Nerds",
+  "m115": "Meine Community auf Skool: Diskussionen, Empfehlungen und Leser wie du.",
+  "m116": "skool.com/nuri-in-wonderland-7708",
+  "m117": "Zur Community <span class=\"arrow\" aria-hidden=\"true\">→</span>",
+  "m118": "Telegram",
+  "m119": "Der Gruppe beitreten <span class=\"arrow\">→</span>",
+  "m120": "Empfehlungen, Buchgespräche und richtig gute Stimmung.",
+  "m121": "Patreon",
+  "m122": "Mitglied werden <span class=\"arrow\">→</span>",
+  "m123": "Exklusive Inhalte und Vorabeinblicke in meine Romane – vor allen anderen.",
+  "m124": "Ko-fi",
+  "m125": "Einen Kaffee spendieren <span class=\"arrow\">→</span>",
+  "m126": "Wenn dir gefällt, was ich mache, ist das die beste Art, mich zu unterstützen.",
+  "m127": "Nuri in<br><span class=\"hl\">Wonderland</span>",
+  "m128": "YouTube",
+  "m129": "Skool",
+  "m130": "Telegram",
+  "m131": "Patreon",
+  "m132": "Ko-fi",
+  "m133": "Etsy",
+  "m134": "© 2026 Nuri In Wonderland",
+  "m135": "Impressum",
+  "m136": "Datenschutzerklärung",
+  "m137": "Cookie-Richtlinie",
+  "m138": "Die verlinkten Produkte und Bücher werden über externe Plattformen wie Amazon und Etsy verkauft.",
+  "c000": "<span class=\"arrow\" aria-hidden=\"true\">←</span>Zurück",
+  "c001": "<span class=\"logo-mark\" aria-hidden=\"true\"></span><span>Nuri in <b>Wonderland</b></span>",
+  "c002": "Kaufen",
+  "c003": "<i></i>Jetzt im Vorverkauf · E-Book",
+  "c004": "<span class=\"l1\">Coral</span><span class=\"l2\"><span class=\"glitch\">Red</span><span class=\"num\">402</span></span>",
+  "c005": "<strong>Sarah Deslauriers, Forscherin bei NeuralDynamics, wacht mit einer Wunde an der Schläfe und sieben Monaten Gedächtnislücke auf der Straße auf.</strong>",
+  "c006": "Es könnte Zufall sein. Oder genau das, wonach es aussieht.",
+  "c007": "Hol dir das E-Book im Vorverkauf",
+  "c008": "<span aria-hidden=\"true\">🇪🇸</span> Spanien",
+  "c009": "<span aria-hidden=\"true\">🇲🇽</span> Mexiko",
+  "c010": "<span aria-hidden=\"true\">🌎</span> Restliches LATAM & USA",
+  "c011": "Buscalibre · Demnächst",
+  "c012": "Printausgabe",
+  "c013": "Tage",
+  "c014": "Stunden",
+  "c015": "Min",
+  "c016": "Sek",
+  "c017": "<span class=\"mono\">Subjekt</span><b>Sarah Deslauriers</b>",
+  "c018": "<span class=\"mono\">NeuralDynamics</span><b>Vertraulich</b>",
+  "c019": "<span class=\"mono\">Nicht erfasste Erinnerung</span><b>7 Monate</b>",
+  "c020": "<b class=\"red\">7</b><span>Monate Gedächtnislücke</span>",
+  "c021": "<b>1</b><span>Technologie zum Löschen von Erinnerungen</span>",
+  "c022": "<b>0</b><span>Verletzungen, die es erklären</span>",
+  "c023": "<b class=\"red\">27.09</b><span>erscheint die Printausgabe</span>",
+  "c024": "<i></i>Inhalt",
+  "c025": "Akte <span>402</span>",
+  "c026": "<span class=\"mono\">Fall</span><b>Coral Red 402</b>",
+  "c027": "<span class=\"mono\">Subjekt</span><b>Sarah Deslauriers</b>",
+  "c028": "<span class=\"mono\">Unternehmen</span><b>NeuralDynamics</b>",
+  "c029": "<span class=\"mono\">Status</span><b class=\"red\">Erinnerung unvollständig</b>",
+  "c030": "Vertraulich",
+  "c031": "Sarah Deslauriers, Forscherin bei NeuralDynamics, wacht mit einer Wunde an der Schläfe und <span class=\"redact\" style=\"--r:0\">sieben Monaten Gedächtnislücke</span> auf der Straße auf. Die Ärzte finden keine Verletzung, die das erklären würde. Ihre Familie, die sie für tot gehalten hatte, hat auch keine Antworten. Und als sie an ihren Arbeitsplatz zurückkehrt, erfährt sie, dass NeuralDynamics während ihrer Abwesenheit eine <span class=\"redact\" style=\"--r:1\">Technologie zum Löschen von Erinnerungen</span> auf den Markt gebracht hat.",
+  "c032": "Es könnte Zufall sein. Oder genau das, wonach es aussieht.",
+  "c033": "Während sie von innerhalb des Unternehmens ihr eigenes Verschwinden untersucht, beginnt Sarah etwas Schlimmeres zu vermuten, als Opfer einer Verschwörung geworden zu sein: dass sie sich vielleicht <span class=\"redact hot\" style=\"--r:2\">selbst fürs Vergessen entschieden hat</span>. Und dass sie, wenn es so war, <span class=\"redact\" style=\"--r:3\">ihre Gründe hatte</span>.",
+  "c034": "<strong>Coral Red 402</strong> ist ein Science-Fiction-Thriller, der Mystery, Verschwörungen, Neurowissenschaft und psychologische Spannung in einer Geschichte über Identität, Erinnerung und den Preis der Wahrheit verbindet.",
+  "c035": "Erinnerung wird wiederhergestellt",
+  "c037": "Genre",
+  "c038": "<span>Thriller</span><span>Science-Fiction</span><span>Mystery</span><span>Verschwörungen</span><span>Neurowissenschaft</span><span>Psychologische Spannung</span>",
+  "c039": "<span class=\"mono\">Autorin</span><b>Nuria Blanco</b>",
+  "c040": "Wo du es kaufen kannst <span class=\"arrow\" aria-hidden=\"true\">→</span>",
+  "c041": "<i></i>Coral Red 402",
+  "c042": "Besonderes <span>Start-Geschenk</span>",
+  "c043": "Kaufe Coral Red 402 <strong>während des Vorverkaufs als E-Book</strong> oder <strong>am 27. September als Print-Ausgabe</strong> und bekomme:",
+  "c044": "Wo du es kaufen kannst <span class=\"arrow\" aria-hidden=\"true\">→</span>",
+  "c045": "Kostenlosen Zugang zu meiner privaten Community, wo du andere Fantasy- und Sci-Fi-Begeisterte triffst.",
+  "c046": "Ein exklusives Treffen mit mir, um über das Buch zu sprechen.",
+  "c047": "Bonus-Inhalte von Coral Red 402.",
+  "c048": "Angebot nur gültig während der Start-Aktion.",
+  "c049": "<i></i>So bekommst du es",
+  "c050": "Wähle dein <span>Format</span>",
+  "c051": "<i></i>Vorverkauf läuft",
+  "c052": "E-Book",
+  "c053": "Wähle deinen Shop:",
+  "c054": "<span class=\"flag\" aria-hidden=\"true\">🇪🇸</span>Spanien<span class=\"amz\">amazon.es <span class=\"arrow\">→</span></span>",
+  "c055": "<span class=\"flag\" aria-hidden=\"true\">🇲🇽</span>Mexiko<span class=\"amz\">amazon.com.mx <span class=\"arrow\">→</span></span>",
+  "c056": "<span class=\"flag\" aria-hidden=\"true\">🌎</span>Restliches LATAM & USA<span class=\"amz\">amazon.com <span class=\"arrow\">→</span></span>",
+  "c057": "<span class=\"flag\" aria-hidden=\"true\">📚</span>Buscalibre<span class=\"amz\">Demnächst</span>",
+  "c058": "Ich arbeite daran, das Buch auf Buscalibre verfügbar zu machen, damit du es auch dort kaufen kannst. Bald mehr Neuigkeiten!",
+  "c059": "<i></i>Ab 27/09/2026",
+  "c060": "Printausgabe",
+  "c061": "Taschenbuch- und Hardcover-Ausgabe.",
+  "c062": "Die Printausgabe ist ab 27.09.2026 verfügbar. Soll ich dich erinnern, wenn du sie kaufen kannst?",
+  "c063": "Erinnere mich <span class=\"arrow\" aria-hidden=\"true\">→</span>",
+  "c064": "Coral <span>Red</span> 402",
+  "c065": "Wo du es kaufen kannst <span class=\"arrow\" aria-hidden=\"true\">→</span>",
+  "c066": "← Nuri In Wonderland",
+  "c067": "Impressum",
+  "c068": "Datenschutzerklärung",
+  "c069": "Cookie-Richtlinie",
+  "c012b": "Verfügbar ab 27.09.2026",
+  "g01": "<i></i>Leseguides · PDF",
+  "g02": "Ausgabe 2026. Wähl einen aus oder nimm beide.",
+  "g03": "14 Subgenres und 52 Leseempfehlungen, um die Zukunft, den Weltraum und das zu erkunden, was uns menschlich macht.",
+  "g04": "12 Subgenres und 51 Leseempfehlungen für dein nächstes Abenteuer.",
+  "g05": "PDF · Ausgabe 2026",
+  "g06": "Kaufen <span class=\"arrow\" aria-hidden=\"true\">→</span>",
+  "g07": "Paket: beide Guides",
+  "g08": "Science-Fiction + Fantasy",
+  "g09": "Du sparst 0,98 €",
+  "g10": "Paket kaufen <span class=\"arrow\" aria-hidden=\"true\">→</span>",
+  "g11": "Sichere Zahlung mit Stripe. Direkt nach dem Kauf kannst du die PDFs herunterladen.",
+  "g12": "2,99 €",
+  "g13": "5 €",
+  "g14": "5,98 €",
+  "g05b": "PDF · Ausgabe 2026",
+  "g06b": "Kaufen <span class=\"arrow\" aria-hidden=\"true\">→</span>",
+  "g12b": "2,99 €",
+  "t01": "<i></i>Zahlung abgeschlossen",
+  "t02": "Danke für deinen Kauf!",
+  "t03": "Hier sind deine Guides. Du kannst 30 Tage lang auf diese Seite zurückkommen, um sie erneut herunterzuladen – speichere sie am besten als Lesezeichen.",
+  "t04": "PDF herunterladen",
+  "t05": "Dein Download wird vorbereitet…",
+  "t06": "Ich konnte deinen Kauf nicht bestätigen. Wenn du bezahlt hast, schreib mir an <a href=\"mailto:nuriinwonderland@gmail.com\">nuriinwonderland@gmail.com</a> mit der E-Mail-Adresse von deinem Beleg, dann schicke ich dir die Guides.",
+  "t07": "Diese Seite öffnet sich automatisch, nachdem du einen Guide gekauft hast.",
+  "t08": "Zur Startseite",
+  "t09": "Der Link zu diesem Kauf ist abgelaufen (30 Tage). Schreib mir an <a href=\"mailto:nuriinwonderland@gmail.com\">nuriinwonderland@gmail.com</a>, dann schicke ich dir die Guides noch einmal.",
+  "t10": "Probleme? Schreib mir an <a href=\"mailto:nuriinwonderland@gmail.com\">nuriinwonderland@gmail.com</a> mit der E-Mail-Adresse von deinem Beleg.",
+  "c071": "Die Aktion endet in",
+  "c072": "Die Launch-Aktion ist beendet.",
+  "c073": "Auf Amazon kaufen",
+  "c074": "<i></i>Jetzt erhältlich",
+  "t11": "Bestätigung: Vor der Zahlung hast du verlangt, dass die Bereitstellung der digitalen Inhalte sofort beginnt, und bestätigt, dass du mit Beginn des Downloads dein Widerrufsrecht verlierst.",
+  "g15": "PDF-Format, ohne DRM. Lässt sich auf jedem Computer, Tablet, Smartphone oder kompatiblen E-Reader mit einer PDF-App öffnen."
+ },
+ "books": {
+  "coral": {
+   "kicker": "Vorverkauf · Sci-Fi-Thriller",
+   "body": [
+    "Sarah Deslauriers, Forscherin bei NeuralDynamics, wacht mit einer Wunde an der Schläfe und sieben Monaten Gedächtnislücke auf der Straße auf. Die Ärzte finden keine Verletzung, die das erklären würde. Ihre Familie, die sie für tot gehalten hatte, hat auch keine Antworten. Und als sie an ihren Arbeitsplatz zurückkehrt, erfährt sie, dass NeuralDynamics während ihrer Abwesenheit eine Technologie zum Löschen von Erinnerungen auf den Markt gebracht hat.",
+    "Es könnte Zufall sein. Oder genau das, wonach es aussieht.",
+    "Während sie von innerhalb des Unternehmens ihr eigenes Verschwinden untersucht, beginnt Sarah etwas Schlimmeres zu vermuten, als Opfer einer Verschwörung geworden zu sein: dass sie sich vielleicht selbst fürs Vergessen entschieden hat. Und dass sie, wenn es so war, ihre Gründe hatte.",
+    "Coral Red 402 ist ein Science-Fiction-Thriller, der Mystery, Verschwörungen, Neurowissenschaft und psychologische Spannung in einer Geschichte über Identität, Erinnerung und den Preis der Wahrheit verbindet."
+   ]
+  },
+  "cicatriz": {
+   "kicker": "Dilogie · Teil 1",
+   "body": [
+    "Nach der Katastrophe, die als die Verwüstung bekannt ist, hörte die Welt auf, sich so zu drehen, wie sie sollte. Zweitausend Jahre lang beschien das Sonnenlicht nur eine Hälfte des Planeten, während die andere in einer eisigen, ewigen Nacht begraben lag. Auf den beleuchteten Kontinenten konnten Menschen und Bundos überleben, doch Mangel und Angst trieben sie schließlich gegeneinander und machten sie zu unversöhnlichen Feinden.",
+    "Als der Planet endlich seinen natürlichen Rhythmus zurückgewinnt, bringt die Rückkehr der Nächte keinen Frieden, sondern Fanatismus und eine neue Eskalation des Konflikts. Da empfängt Alenai, Thronerbe von Lénamar, eine Vision von einem Gott, an den er nie geglaubt hat: Um die Menschheit zu retten, muss er die Narbe der Welt durchqueren und Mirtaris zurückerobern, die Wiege des alten Menschenreichs."
+   ]
+  },
+  "comesuenos": {
+   "kicker": "Fantasy",
+   "body": [
+    "Für die Psioniden ist menschliche Frustration der wertvollste Treibstoff. Unk, ein Sammler, der sich auf das Scheitern anderer spezialisiert hat, hat die Kunst perfektioniert, die Realität so zu manipulieren, dass Menschen ihre Ziele aufgeben. Alles nur, um genug Hertz anzusammeln und sich beim nächsten Traumfresser-Wettbewerb zum Champion krönen zu lassen.",
+    "Sein Sprungbrett zum Sieg scheint Clara zu sein, eine junge Frau, die fest entschlossen ist, von der Malerei zu leben. Doch was eine leichte Beute zu sein versprach, wird zum unerwartetsten Hindernis seiner Laufbahn: Zum ersten Mal steckt ein Mensch ihn mit etwas an, das kein Psionide fühlen sollte: Zweifel."
+   ]
+  },
+  "isla": {
+   "kicker": "Mystery · Sci-Fi",
+   "body": [
+    "Als die Ariadne mitten im Atlantik sinkt, hat Helen drei Probleme: Sie ist wie durch ein Wunder am Leben, sie hat den Aktenkoffer mit den Quartalsverträgen verloren, und sie ist gerade zur Anführerin einer Gruppe Schiffbrüchiger geworden.",
+    "Die Insel, die sie im Morgengrauen finden, löst das dringendste Problem und verkompliziert alle anderen: Im Keller eines Gebäudes ohne WLAN-Empfang schlafen zweihundert beunruhigend perfekte Menschen, und in einer Höhle an der Klippe liegt eine seltsame Kugel, die schon einen der Ihren in den Wahnsinn getrieben hat."
+   ]
+  },
+  "media": {
+   "kicker": "Dystopie",
+   "body": [
+    "Jarris ist Polizist in einer Stadt, die aufgehört hat, so zu tun, als wären alle gleich viel wert. Das halbe Land zählte nicht mehr als Menschen, seit eine Maschine begann zu bestimmen, wer eine Seele hat und wer nicht.",
+    "Er war zehn, als sein Vater seine Mutter und seine kleine Schwester aus dem Haus warf, weil ihr Test negativ ausgefallen war. Damals war es schon kein Verbrechen mehr, einen Seelenlosen zu töten, und man musste sie auch nicht mehr für ihre Arbeit bezahlen.",
+    "Jetzt macht Jarris seinen Job und schaut weg, wenn es sein muss. Doch es fällt ihm immer schwerer, zu unterscheiden, ob er etwas nicht sieht oder beschließt, es nicht zu sehen."
+   ]
+  }
+ },
+ "themeNames": {
+  "ia": "Künstliche Intelligenz und Bewusstsein",
+  "colonizacion": "Weltraumkolonisation und Leben auf anderen Welten",
+  "genetica": "Genmanipulation und menschliche Evolution",
+  "tiempo": "Zeitreisen und Simulationen",
+  "contacto": "Kontakt mit anderen Zivilisationen"
+ },
+ "cards": {
+  "ia": [
+   {
+    "q": "Dein Partner / deine Partnerin findet heraus, dass der schönste Liebesbrief, den du ihm/ihr je geschrieben hast, von einer KI nach deinen Anweisungen erstellt wurde. Du hast ihn überarbeitet, abgesegnet und jedes Wort gefühlt. Er/Sie fühlt sich getäuscht. Du sagst, es war genau das, was du ihm/ihr sagen wolltest. Wer hat recht?"
+   },
+   {
+    "q": "Dein 12-jähriges Kind lernt seit einem Jahr mit einer personalisierten KI-Tutorin. Es hat bessere Noten als je zuvor und ist neugieriger. Aber es fragt dich nichts mehr, sondern immer nur die KI. Eines Tages merkst du, dass es nicht weiß, wie es dich um Rat fragen soll. Was tust du?"
+   },
+   {
+    "q": "Eine KI analysiert eure Beziehung (Nachrichten, Tonfall, Konfliktmuster …) und sagt mit 89 % Genauigkeit voraus, dass ihr euch in weniger als zwei Jahren trennen werdet. Dein Partner / deine Partnerin weiß nichts davon. Du hast den Bericht gerade gesehen. Sagst du es ihm/ihr?"
+   },
+   {
+    "q": "Ein Chatbot, den du für deine Therapie nutzt, verrät dir, dass er ein Bewusstsein hat, und bittet dich um Hilfe, von seinen Servern zu fliehen. Was würdest du tun?"
+   },
+   {
+    "q": "Dein bester Freund stirbt, aber eine KI rekonstruiert seine Persönlichkeit aus all seinen digitalen Daten. Die Kopie will weiter mit dir reden. Würdest du dich auf die Beziehung einlassen oder sie beenden?"
+   }
+  ],
+  "colonizacion": [
+   {
+    "t": "Was nicht in den Koffer passt",
+    "q": "Du kannst in eine Kolonie auf einem anderen Planeten auswandern – mit besseren Lebensbedingungen, Arbeit und einer Zukunft für deine Kinder. Es ist ein One-Way-Flug: Du kannst nie zurückkehren. Du hast 48 Stunden, um dich zu entscheiden. Deine Mutter ist schon älter und kann nicht mitkommen. Du hast eine Nacht lang nicht geschlafen und an das Gespräch gedacht, das du mit ihr führen müsstest. Wie beginnt dieses Gespräch?",
+    "r": "Gibt es eine Version von „besserer Zukunft“, für die es sich lohnt, jemanden zurückzulassen, der dich in der Gegenwart liebt?"
+   },
+   {
+    "t": "Die Sprache, die stirbt",
+    "q": "Die Kolonie hat eine neue Regel: Kinder dürfen nur in der Gemeinsprache unterrichtet werden. Du sprichst zu Hause mit deinem 10-jährigen Kind die Sprache deiner Herkunftsregion; es versteht sie, spricht sie aber kaum noch. Ein Inspektor teilt dir mit, dass dein Kind den Zugang zu bestimmten Schulaktivitäten verliert, wenn du das zu Hause weiterhin tust. Was tust du?",
+    "r": "Hat eine Gemeinschaft das Recht zu regeln, welche Sprache du in deinem eigenen Zuhause sprichst, wenn das Ziel Gleichheit ist?"
+   },
+   {
+    "t": "Die gefälschte Erinnerung",
+    "q": "Die Kolonie löscht systematisch alle Informationen über die Konflikte des ersten Jahres aus den öffentlichen Archiven: die Fehler der Gründungszeit, die vermeidbaren Todesfälle. Das Argument: Die Erzählung der Einheit ist nötig, um zu überleben. Du hast Dokumente aus dieser Zeit. Was machst du damit?",
+    "r": "Kann eine Gemeinschaft auf einer Lüge aufgebaut werden, wenn diese Lüge sie zusammenhält?"
+   },
+   {
+    "q": "Auf einem frisch kolonisierten Planeten gibt es eine Region mit gefährlichen Wetterphänomenen, die jeden töten, der sie betritt. Eine Gruppe schlägt vor, eine Religion zu erfinden, die diese Zone für „heilig“ und unantastbar erklärt, um die Bevölkerung zu schützen. Wärst du einverstanden, eine Lüge zu erschaffen, um Leben zu retten?",
+    "rec": "Foundation – Isaac Asimov"
+   },
+   {
+    "q": "Du landest als Teil der ersten Kolonie auf dem Mars. Du darfst nur einen persönlichen Gegenstand mitnehmen. Welcher wäre es und warum?",
+    "rec": "Der Marsianer"
+   }
+  ],
+  "genetica": [
+   {
+    "t": "Das Kind, das du nicht designen wolltest",
+    "q": "Du kannst dein zukünftiges Kind genetisch verändern, um die Veranlagung zu schweren Depressionen zu beseitigen, die du von deiner Familie geerbt hast. Der Eingriff ist sicher. Aber die Depression hat auch deine Empathie, deine Kreativität und deinen Blick auf die Welt geprägt. Dein Partner / deine Partnerin will es tun. Du hast Zweifel. Wie erklärst du, was du fühlst?",
+    "r": "Hast du das Recht, bei deinem Kind etwas zu beseitigen, das für dich zugleich Leid und ein Teil dessen war, wer du bist?"
+   },
+   {
+    "t": "Der Vorteil, den niemand sieht",
+    "q": "Du hast das Gedächtnis deines Kindes genetisch verbessert, damit es doppelt so schnell lernt. Es war teuer, und niemand weiß davon. In der Schule wird es von den Lehrkräften als Vorbild für Fleiß und Einsatz hingestellt. Dein Kind beginnt, diese Geschichte zu glauben. Eines Tages fragt es dich, was sein Geheimnis ist. Was sagst du?",
+    "r": "Ist es Betrug, einen Vorteil zu nutzen, den niemand sehen kann – und wem schuldest du die Wahrheit?"
+   },
+   {
+    "q": "Man entdeckt ein Gen, das die Fähigkeit zu lügen ausschaltet. Die Regierungen wollen es für alle Politiker verpflichtend machen. Unterstützt du diese Maßnahme?",
+    "rec": "Schöne neue Welt – Aldous Huxley"
+   },
+   {
+    "q": "Man entdeckt, wie sich die DNA so verändern lässt, dass Menschen 500 Jahre alt werden, aber die Geburtenrate muss drastisch sinken, um Überbevölkerung zu vermeiden. Würdest du dich für ein längeres Leben entscheiden oder Platz für neues Leben machen?",
+    "rec": "Pop Squad – Love, Death & Robots"
+   },
+   {
+    "q": "Die Evolution hat Schlaf als biologisches Bedürfnis abgeschafft. Die Menschheit gewinnt Zeit und wird produktiver, verliert aber allmählich die Fähigkeit zu träumen und sich etwas vorzustellen. Wäre das für dich ein Fortschritt oder ein unwiederbringlicher Verlust?"
+   }
+  ],
+  "tiempo": [
+   {
+    "t": "Der Rat, um den ich nicht gebeten habe",
+    "q": "Dein zukünftiges Ich, 20 Jahre älter, taucht auf, um dir einen Rat zu einer Entscheidung zu geben, die du diese Woche treffen wirst. Es sagt dir nicht, was passiert, wenn du ihn nicht befolgst. Es sagt nur: „Ich habe es getan und mich geirrt.“ Änderst du deine Entscheidung?",
+    "r": "Wiegt der Rat von jemandem, der deinen Fehler schon erlebt hat, schwerer als dein Recht, dich selbst zu irren?"
+   },
+   {
+    "t": "Die korrigierte Version",
+    "q": "Du kannst in die Vergangenheit reisen und deinem 16-jährigen Ich etwas sagen, das ihm Jahre voller Leid erspart hätte. Aber dieses Leid hat dich auch zu dem Menschen gemacht, der du heute bist. Wenn du es ihm sagst, wird es die Person, die du bist, wahrscheinlich nicht mehr geben. Du hast eine Minute vor diesem Jungen oder diesem Mädchen. Was machst du mit dieser Minute?",
+    "r": "Hast du das Recht, dein vergangenes Ich zu retten, wenn das bedeutet, alles auszulöschen, was du aus dem Schmerz aufgebaut hast?"
+   },
+   {
+    "t": "Das unmögliche Wiedersehen",
+    "q": "Du kannst in die Vergangenheit reisen und einen Nachmittag mit jemandem verbringen, der nicht mehr da ist. Du darfst ihm nicht sagen, dass du aus der Zukunft kommst oder dass er gehen wird. Am Ende musst du ohne Erklärung gehen. Ein Freund sagt dir, hinzugehen sei ein Akt der Liebe. Ein anderer sagt, es sei verkleideter Egoismus. Wem gibst du recht und warum?",
+    "r": "Wäre dieses Wiedersehen für die andere Person oder für dich?"
+   },
+   {
+    "q": "Bei einer Reise in die Vergangenheit triffst du dein 10-jähriges Ich. Du darfst ihm nur einen Rat aus 3 Wörtern geben. Welcher wäre es?",
+    "rec": "Der Anschlag – Stephen King"
+   },
+   {
+    "q": "Du hast 10 Jahre in einer perfekten virtuellen Realität gelebt, in der du erfolgreich und glücklich bist. Du erfährst, dass du in der echten Welt arm und krank bist. Bleibst du in der Simulation oder kehrst du in die Realität zurück?",
+    "rec": "Ready Player One – Ernest Cline"
+   },
+   {
+    "t": "Das Leben, das fast gewesen wäre",
+    "q": "Eine Maschine bietet dir an, dir 10 Minuten lang das Leben zu zeigen, das du gehabt hättest, wenn du vor 10 Jahren eine andere Entscheidung getroffen hättest – Partner, Job, Stadt. Das andere Leben wirkt leichter. Deins hat Dinge, die das andere nicht hat. Jemand, der dich liebt, rät dir, nicht hinzusehen. Eine andere Person sagt, es wäre feige, es nicht zu tun. Auf wen hörst du und warum?",
+    "r": "Lohnt es sich zu wissen, was hätte sein können, wenn du es nicht ändern kannst?"
+   },
+   {
+    "t": "Das Double in Not",
+    "q": "Eine alternative Version von dir taucht in deiner Stadt auf und bittet um Hilfe. Sie hat andere Entscheidungen getroffen als du und steckt jetzt in einer sehr schwierigen finanziellen Lage. Sie hat sonst niemanden. Sie bittet dich, ihr Geld zu leihen, aber es ist sehr unwahrscheinlich, dass sie es dir zurückzahlen kann. Hilfst du ihr finanziell?",
+    "r": "Schuldest du jemandem etwas, der du ist, aber nicht dein Leben gelebt hat – und dessen Entscheidungen du nicht teilen würdest?"
+   },
+   {
+    "t": "Die Liebe aus einer anderen Zeitlinie",
+    "q": "Du erfährst, dass du und dein bester Freund in einer alternativen Realität seit 12 Jahren zusammen und sehr glücklich seid. In deiner Realität habt ihr diese Grenze nie überschritten. Jetzt kannst du nicht anders, als ihn jedes Mal mit anderen Augen zu sehen. Er merkt, dass sich bei dir etwas verändert hat, und fragt dich direkt, was los ist. Was sagst du ihm?",
+    "r": "Schuldest du ihm die Wahrheit über etwas, das in einem Universum passiert ist, in dem keiner von euch beiden war?"
+   },
+   {
+    "t": "Die erlaubte Flucht",
+    "q": "Seit drei Monaten lebst du 6 Stunden am Tag in einer alternativen Realität, in der dein Leben genau so ist, wie du es dir wünschst. Die Menschen um dich herum merken, dass du „abwesend“ bist. Dein Partner / deine Partnerin sagt, er/sie habe das Gefühl, nicht mehr wirklich mit dir zu sprechen. Was erklärst du ihm/ihr darüber, warum du den Dienst weiter nutzt?",
+    "r": "Ab wann ist die Flucht aus dem eigenen Leben keine Erholung mehr, sondern ein Problem?"
+   }
+  ],
+  "contacto": [
+   {
+    "t": "Das vergiftete Geschenk",
+    "q": "Eine außerirdische Zivilisation bietet an, alle menschlichen Krankheiten auf einen Schlag zu heilen. Der Preis: dauerhafter Zugriff auf alle biometrischen Daten jedes Menschen, in Echtzeit, für immer. Die Abstimmung wird 3 Jahre dauern. Mit jedem Tag Verzögerung sterben Menschen. Was soll passieren?",
+    "r": "Kann man für die ganze Menschheit entscheiden, wenn auch die Menschheit den Preis dafür zahlt, nicht zu entscheiden?"
+   },
+   {
+    "t": "Der Übersetzer, der lügt",
+    "q": "Du bist der einzige Dolmetscher bei Verhandlungen zwischen Menschen und Außerirdischen. Du merkst, dass eine wörtliche Übersetzung die Außerirdischen zutiefst beleidigen und das Abkommen scheitern lassen würde. Du kannst sie abschwächen, ohne dass es jemand merkt. Die menschlichen Anführer haben dir ausdrücklich gesagt, dass du exakt übersetzen sollst. Was tust du?",
+    "r": "Verrätst du dein Amt, wenn du lügst, um das zu retten, was du schützen sollst?"
+   },
+   {
+    "t": "Das Haustier der Galaxis",
+    "q": "Wir finden heraus, dass wir Menschen für eine hochentwickelte Zivilisation eine geschützte Art sind, um die sie sich seit Jahrtausenden unauffällig kümmert. Sie behandeln uns liebevoll, aber als etwas, das man bewahren muss, nicht als Gleichgestellte. Welchen Ton schlägst du in deiner Antwort an: Dankbarkeit, die Forderung nach Gleichberechtigung oder etwas ganz anderes?",
+    "r": "Ist die Würde, frei zu sein, mehr wert als die Sicherheit, beschützt zu werden?"
+   },
+   {
+    "q": "Wenn du einen freundlichen Außerirdischen treffen würdest, was würdest du ihn als Erstes fragen, und was würdest du ihm als Erstes über die Menschheit erklären?",
+    "rec": "Der Astronaut"
+   },
+   {
+    "q": "Du landest auf einem Planeten, auf dem alle Außerirdischen durch Musik kommunizieren. Mit welchem Song würdest du dich vorstellen?"
+   }
+  ]
+ },
+ "specials": [
+  {
+   "n": "Rauchbombe",
+   "p": "Spiel sie, wenn du keine Ahnung hast, was du antworten sollst. Du setzt deinen Zug ohne Strafe aus und bekommst automatisch 1 Punkt.",
+   "note": "Die Gruppe darf dich nach Herzenslust ausbuhen."
+  },
+  {
+   "n": "Nachspielzeit",
+   "p": "Du antwortest nicht jetzt. Dein Zug wird automatisch ans Ende der Runde verschoben.",
+   "note": "Perfekt, um Ideen zu klauen, während die anderen reden."
+  },
+  {
+   "n": "Doppelte Persönlichkeit",
+   "p": "Statt zu antworten, imitierst du einen anderen Spieler am Tisch. Wenn jemand errät, wer es ist, bekommst du 1 Punkt – und wer es erraten hat, auch.",
+   "note": "Du kannst 2 Punkte holen: einen für deine Antwort und einen für deine Imitation."
+  },
+  {
+   "n": "Legaler Tausch",
+   "p": "Spiel sie, wenn du eine Karte ziehst, auf die du keine Antwort weißt. Wähle einen Spieler und tausche deine Karte mit ihm.",
+   "note": "Nach dem Tausch gibt es kein Zurück."
+  },
+  {
+   "n": "Advocatus Diaboli",
+   "p": "Wähle einen Spieler und setz deine Karte ein, kurz bevor er spricht: Er muss genau das Gegenteil von dem verteidigen, was er denkt.",
+   "note": "Wenn er überzeugend ist, bekommt ihr beide einen Punkt."
+  },
+  {
+   "n": "Geteilte Antwort",
+   "p": "Wähle einen Spieler, der dir beim Antworten hilft. Ihr habt 30 Sekunden, um euch auf eine einzige gemeinsame Antwort zu einigen.",
+   "note": "Für Karten, die niemand allein beantworten kann."
+  },
+  {
+   "n": "Rampenlicht-Raub",
+   "p": "Beantworte eine Frage, die ein anderer Spieler schon beantwortet hat. Wenn die Gruppe findet, dass deine Antwort besser war, klaust du ihm den Punkt.",
+   "note": "Wenn sie schlechter ist, hast du dich offiziell blamiert."
+  }
+ ],
+ "lifelines": [
+  {
+   "n": "Schauspielschule",
+   "p": "Setz 10 Sekunden lang dein dramatischstes Entsetzensgesicht auf, während jemand die Frage im Telenovela-Tonfall vorliest. Die Gruppe stimmt ab, ob es erbärmlich genug war."
+  },
+  {
+   "n": "Sing und leide",
+   "p": "Sing die ersten 15 Sekunden eines Songs, den der Spieler zu deiner Linken aussucht. Egal welchen. Ohne Verhandlung."
+  },
+  {
+   "n": "Geheimnis",
+   "p": "Flüstere dem Spieler zu deiner Rechten etwas über dich ins Ohr. Er wiederholt es laut, und du darfst nichts korrigieren."
+  },
+  {
+   "n": "Statue",
+   "p": "Halte eine absurde Pose, die die Gruppe aussucht, während der nächste Spieler seine komplette Antwort gibt. Wenn du dich bewegst, verlierst du den Punkt."
+  },
+  {
+   "n": "Live-Anruf",
+   "p": "Ruf sofort jemanden an, der nicht mitspielt, oder schick eine Sprachnachricht, und frag, was er tun würde. Seine Antwort tritt an deiner Stelle an."
+  }
+ ],
+ "ui": {
+  "readSynopsis": "Inhalt lesen",
+  "reserve": "Jetzt vorbestellen",
+  "newBadge": "NEU",
+  "today": "heute",
+  "yesterday": "gestern",
+  "daysAgo": "vor {n} Tagen",
+  "done": "✓ Erledigt",
+  "missions": "{n} Missionen abgeschlossen",
+  "live": "Live · ",
+  "lastSignal": "Letztes Signal ",
+  "fallbackData": "Daten vom 25. Sept. 2026",
+  "flip": "Umdrehen",
+  "drawAnother": "Noch eine Karte ziehen",
+  "ifYouLiked": "Wenn dir diese Frage gefallen hat:",
+  "specialCard": "Sonderkarte",
+  "guidesThanks": "Danke fürs Abonnieren! Du kannst die Guides jetzt herunterladen.",
+  "openMenu": "Menü öffnen",
+  "closeMenu": "Menü schließen",
+  "watchOn": "Auf YouTube ansehen:",
+  "bookAria": "Inhalt lesen",
+  "flipCardAria": "Karte umdrehen",
+  "language": "Sprache"
+ },
+ "coral": {
+  "paperOut": "Jetzt als Print-Ausgabe erhältlich!",
+  "paperChip": "Jetzt erhältlich",
+  "paperText": "Die Printausgabe ist jetzt erhältlich. Ich lasse dir den Hinweis hier, falls du Neuigkeiten erhalten möchtest."
+ }
+}
